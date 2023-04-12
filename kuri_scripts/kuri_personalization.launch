@@ -1,0 +1,42 @@
+<!--
+Launches the EDU version of Kuri.  Useful for academic purposes, but with
+minimal autonomous behavior and no Kuri assets (animations, sounds, etc)
+Users are expected to modifiy the nodes provided as part of the kuri_edu
+software package to experiment with their own robot behaviors
+-->
+
+<launch>
+    <!-- Kuri motor control, depthsensor, chest LED, and other sensors-->
+    <include file="$(find mobile_base_driver)/launch/kuri_drive.launch"/>
+
+    <!-- Kuri's eye camera -->
+    <!-- <include file="$(find kuri_camera)/launch/kuri_camera_publisher.launch"/> -->
+
+    <!-- Kuri's face recognition -->
+    <!-- <include file="$(find vision_bridge)/launch/vision_bridge.launch"/> -->
+
+    <!-- Localization, if a map has been created.  OORT is just used as a map server -->
+    <include file="$(find kuri_edu)/launch/mapping.launch"/>
+
+    <!-- Autonomous Navigation -->
+    <include file="$(find kuri_edu)/launch/autonomous_navigation.launch"/>
+
+    <!-- Below are the nodes that can be modified as part of the Kuri EDU activities -->
+	<include file="$(find kuri_edu)/launch/safety_controller.launch"/> 
+	<include file="$(find kuri_edu)/launch/head_controller.launch"/> 
+
+    <!-- Joystick control - Disabled by default -->
+    <!-- <include file="$(find kuri_edu)/launch/joystick_teleop.launch"/> -->
+    
+    <!-- <include file="$(find kuri_edu)/launch/chest_light_controller.launch"/> -->
+    <include file="$(find kuri_edu)/launch/nav_controller.launch"/>
+
+    <!--Kuri Animation subscriber-->
+    <!-- <node name="anim_listener" pkg="kuri_api" type="anim_listener.py" respawn="true"/> -->
+
+    <!--Rosbridge-->
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+     <arg name="bson_only_mode" value="true"/> 
+    </include>
+
+</launch>
