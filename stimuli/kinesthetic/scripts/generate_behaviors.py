@@ -54,5 +54,5 @@ for method in [linear, easeInOutSine, easeInOutElastic, easeInOutBack, easeInOut
     all_outputs.append(output)
 
 print(np.array(all_outputs).shape)
-np.save('../data/behaviors',all_outputs)
+np.save('../data/behaviors', all_outputs)
 
