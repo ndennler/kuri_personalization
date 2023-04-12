@@ -35,8 +35,8 @@ software package to experiment with their own robot behaviors
     <!-- <node name="anim_listener" pkg="kuri_api" type="anim_listener.py" respawn="true"/> -->
 
     <!--Rosbridge-->
-    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+    <!-- <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
      <arg name="bson_only_mode" value="true"/> 
-    </include>
+    </include> -->
 
 </launch>
