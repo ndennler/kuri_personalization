@@ -60,6 +60,7 @@ class HeadTeleop:
 
         rospy.Subscriber('kuri_animation', UInt16, self.play_behavior)
 
+        self._joint_states = mobile_base.JointStates()
         self._head_client = mobile_base.HeadClient(self._joint_states)
         assert self._head_client.wait_for_server(timeout=rospy.Duration(30.0))
 
