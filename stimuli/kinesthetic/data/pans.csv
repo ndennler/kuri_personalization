@@ -1,0 +1,18 @@
+name,1,2,3,4
+shake head no small,-0.2,0.2,-0.2,0.2
+shake head no medium,-0.4,0.4,-0.4,0.4
+shake head no large,-0.6,0.6,-0.6,0.6
+look left small,,0.2,,
+look left medium,,0.4,,
+look left large,,0.6,,
+look right small,,-0.2,,
+look right medium,,-0.4,,
+look right large,,-0.6,,
+tick left,0.1,0.3,0.5,0.7
+tick right,-0.1,-0.3,-0.5,-0.7
+pan left,-0.4,,,0.7
+pan right,0.4,,,-0.7
+tick left snap right,0.1,0.2,0.3,-0.5
+tick right snap left,-0.1,-0.2,-0.3,0.5
+look left look right,,0.2,,-0.2
+None,,,,

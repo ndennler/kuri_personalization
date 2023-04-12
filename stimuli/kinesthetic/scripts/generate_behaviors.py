@@ -10,6 +10,18 @@ NEUTRAL = np.array([0.0, 0.0, 0.1]) # pan, tilt, eyes
 MAX = np.array([0.78, 0.29, 0.41]) # pan, tilt, eyes
 MIN = np.array([-0.78, -0.92, -0.16]) # pan, tilt, eyes
 
+def read_animation_csv(file):
+    all_animations = []
+    data = pd.read_csv(file)
+    for _, row in data.iterrows():
+        this_animation = []
+        for i in range(1,5):
+            if not np.isnan(row[i]):
+                this_animation.append([i, row[i]])
+        all_animations.append(this_animation)
+    
+    return all_animations
+
 #prepend and append the neutral position for each DoF
 def add_neutrals(sequence, type_index):
     sequence = [[0, NEUTRAL[type_index]]] + sequence + [[DURATION, NEUTRAL[type_index]]] 
@@ -37,21 +49,29 @@ def interp(sequence, method):
 all_outputs = []
 
 #TODO: read in from a file or something
-pans = [[2,.2], [4,-.2]]
-tilts = []
-eyes = []
+pans = read_animation_csv('../data/pans.csv')
+tilts = read_animation_csv('../data/tilts.csv')
+eyes = read_animation_csv('../data/eyes.csv')
 
-pans = add_neutrals(pans, 0)
-tilts= add_neutrals(tilts, 1)
-eyes = add_neutrals(eyes, 2)
+print(tilts)
 
-for method in [linear, easeInOutSine, easeInOutElastic, easeInOutBack, easeInOutCirc]:
-    pan_vector = np.clip(interp(pans,method),MIN[0], MAX[0])
-    tilt_vector = np.clip(interp(tilts,method),MIN[1], MAX[1])
-    eyes_vector = np.clip(interp(eyes,method),MIN[2], MAX[2])
-    output = np.round(np.array([pan_vector, tilt_vector, eyes_vector]).T,2)
+for pan in pans:
+    pan = add_neutrals(pan, 0)
 
-    all_outputs.append(output)
+    for tilt in tilts:
+        tilt= add_neutrals(tilt, 1)
+
+        for eye in eyes:
+            eye = add_neutrals(eye, 2)
+
+            for method in [linear, easeInOutSine, easeInOutElastic, easeInOutBack, easeInOutCirc]:
+                # print(f'{pan},\n{tilt},\n{eye}')
+                pan_vector = np.clip(interp(pan,method),MIN[0], MAX[0])
+                tilt_vector = np.clip(interp(tilt,method),MIN[1], MAX[1])
+                eyes_vector = np.clip(interp(eye,method),MIN[2], MAX[2])
+                output = np.round(np.array([pan_vector, tilt_vector, eyes_vector]).T,2)
+
+                all_outputs.append(output)
 
 print(np.array(all_outputs).shape)
 np.save('../data/behaviors', all_outputs)
