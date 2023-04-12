@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from __future__ import print_function
 import rospy
 from std_msgs.msg import UInt16
@@ -94,11 +96,11 @@ class HeadTeleop:
                 )
             rospy.sleep(0.05)
 
-    def run(self):
-
-        while not rospy.is_shutdown():
-            rospy.sleep(.05)
-
     def shutdown(self):
         #self.timer.shutdown()
         print("Shutting down...")
+
+if __name__ == '__main__':
+    rospy.init_node('behavior_player')
+    h = HeadTeleop()
+    rospy.spin()
