@@ -1,0 +1,11 @@
+.full-video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    min-width: 80vh;
+    min-height: auto;
+    width: auto;
+    height: auto;
+    z-index: -1;
+   } 
