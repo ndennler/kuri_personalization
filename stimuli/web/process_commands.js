@@ -3,7 +3,7 @@
 var video = document.getElementById('video-stimulus');
 var source = document.getElementById('video-source');
 
-var audio;
+var audio = new Audio('data/all_systems_down.mp3');
 
 
 function switch_video(file){

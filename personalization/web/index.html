@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Control Panel</title>
+    <style>
+      /* styling for the button grid */
+      .button-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        height: 65vh;
+
+      }
+
+      /* styling for the buttons */
+      button {
+        padding: 10px;
+        font-size: 1.2rem;
+      }
+
+        /* Style the tab */
+        .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+        width: auto;
+        
+        }
+
+        /* Style the buttons that are used to open the tab content */
+        .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        width: 49vw;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+        background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+        background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        }
+
+        .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        padding: 20px;
+        }
+        
+
+        .button-container button {
+        margin: 0 10px;
+        width: 25%;
+        height: 80%;
+        }
+
+        .button-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        padding: 20px;
+        }
+
+        .button-header button {
+        margin: 0 10px;
+        width: 25%;
+        height: 80%;
+        }
+
+        /* styling for the select tab */
+        .scrolling-area {
+          height: 50vh;
+          overflow-y: scroll;
+          padding: 10px;
+        }
+
+        .scrolling-area ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+
+        .scrolling-area li {
+        padding: 10px;
+        width: 25%; /* Set each item to take up 25% of the width */
+        height: 20vh;
+        box-sizing: border-box; /* Include padding and borders in the width */
+        text-align: center;
+        }
+
+        .confirmation-dialog {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: white;
+          border: 1px solid black;
+          padding: 20px;
+          text-align: center;
+          z-index: 999;
+          visibility: hidden;
+        }
+
+        .confirmation-message {
+          margin-bottom: 10px;
+        }
+
+        .confirmation-yes, .confirmation-no {
+          margin: 0 10px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <div>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Choice')">Choice</button>
+            <button class="tablinks" onclick="openTab(event, 'Select')">Select</button>
+          </div>
+
+
+      <div id="Choice" class="tabcontent">
+        <div id="button-grid" class="button-grid"></div>
+
+        <div class="button-container">
+          <button>Visual</button>
+          <button>Sound</button>
+          <button>Movement</button>
+        </div>
+      </div>
+
+      <div id="Select" class="tabcontent">
+        <div class="button-header">
+          <button>Visual</button>
+          <button>Sound</button>
+          <button>Movement</button>
+        </div>
+
+        <div class="scrolling-area">
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+            <li>Item 7</li>
+            <li>Item 8</li>
+            <li>Item 9</li>
+            <li>Item 10</li>
+            <li>Item 11</li>
+            <li>Item 12</li>
+            <li>Item 13</li>
+            <li>Item 14</li>
+            <li>Item 15</li>
+            <li>Item 16</li>
+            <li>Item 17</li>
+            <li>Item 18</li>
+            <li>Item 19</li>
+            <li>Item 20</li>
+          </ul>
+        </div>
+
+        <div class="button-container">
+          <!-- <button>Option 1</button> -->
+          <button>Test Signal</button>
+          <button>Submit</button>
+        </div>
+
+      </div>
+    </div>
+    <div id="confirmation-dialog" class="confirmation-dialog">
+      <div class="confirmation-message">skir skir</div>
+      <button class="confirmation-yes" onclick="confirmAction(true)">Yes</button>
+      <button class="confirmation-no" onclick="confirmAction(false)">No</button>
+    </div>
+
+    <script>
+
+        var stimulus_types = ['Video', 'Audio', 'Movement']
+
+        // function to create the button grid dynamically
+        function createButtonGrid(rows, cols) {
+            const buttonGrid = document.getElementById("button-grid");
+            buttonGrid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+            buttonGrid.style.gridTemplateRows = `repeat(${rows}, 1fr)`;
+
+            for (let i = 1; i <= rows * cols; i++) {
+                const button = document.createElement("button");
+                row_num = Math.floor((i-1)/cols)
+                if ((i - 1) % cols === 0) { // check if this is the first button in the row
+                    button.style.width = "9vw"; // set a different width for the first button
+                    button.textContent = `No\n${stimulus_types[row_num]}`;
+                } else if((i - 1) % cols === cols-1){ // check if this is the last button in the row
+                  button.style.width = 85/(cols-1) + "vw";
+                    button.textContent = `I don't like \nany of these\n${stimulus_types[row_num]}s`;
+                } else {
+                    button.style.width = 85/(cols-1) + "vw";
+                    button.textContent = `${stimulus_types[row_num]} ${i - row_num*cols - 1}`;
+                }
+                
+                buttonGrid.appendChild(button);
+            }
+        }
+
+      // create the button grid with 3 rows and 4 columns
+      createButtonGrid(3, 5);
+
+        function openTab(evt, tabName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(tabName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        document.getElementsByClassName("tablinks")[0].click();
+
+        openTab(event, 'Select')
+
+        function showConfirmation() {
+            var confirmationDialog = document.getElementById('confirmation-dialog');
+            var confirmationMessage = document.querySelector('.confirmation-message');
+
+            confirmationMessage.textContent = 'Are you sure you want to proceed?';
+            confirmationDialog.style.visibility = 'visible';
+          }
+
+          function confirmAction(actionConfirmed) {
+            var confirmationDialog = document.getElementById('confirmation-dialog');
+
+            if (actionConfirmed) {
+              // User clicked "Yes"
+              // Do something here, like submit a form or navigate to a new page
+            } else {
+              // User clicked "No"
+              // Do nothing or provide feedback to the user
+            }
+
+            confirmationDialog.style.visibility= 'hidden';
+          }
+      </script>
