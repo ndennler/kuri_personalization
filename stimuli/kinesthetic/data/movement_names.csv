@@ -1,0 +1,2126 @@
+,id,name
+0,0,None_shake head no small_None_lin
+1,1,None_shake head no small_None_sine
+2,2,None_shake head no small_None_elastic
+3,3,None_shake head no small_None_back
+4,4,None_shake head no small_None_circ
+5,5,None_shake head no small_Blink_lin
+6,6,None_shake head no small_Blink_sine
+7,7,None_shake head no small_Blink_elastic
+8,8,None_shake head no small_Blink_back
+9,9,None_shake head no small_Blink_circ
+10,10,None_shake head no small_Double Blink_lin
+11,11,None_shake head no small_Double Blink_sine
+12,12,None_shake head no small_Double Blink_elastic
+13,13,None_shake head no small_Double Blink_back
+14,14,None_shake head no small_Double Blink_circ
+15,15,None_shake head no small_Happy_lin
+16,16,None_shake head no small_Happy_sine
+17,17,None_shake head no small_Happy_elastic
+18,18,None_shake head no small_Happy_back
+19,19,None_shake head no small_Happy_circ
+20,20,None_shake head no small_sad_lin
+21,21,None_shake head no small_sad_sine
+22,22,None_shake head no small_sad_elastic
+23,23,None_shake head no small_sad_back
+24,24,None_shake head no small_sad_circ
+25,25,Look up_shake head no small_None_lin
+26,26,Look up_shake head no small_None_sine
+27,27,Look up_shake head no small_None_elastic
+28,28,Look up_shake head no small_None_back
+29,29,Look up_shake head no small_None_circ
+30,30,Look up_shake head no small_Blink_lin
+31,31,Look up_shake head no small_Blink_sine
+32,32,Look up_shake head no small_Blink_elastic
+33,33,Look up_shake head no small_Blink_back
+34,34,Look up_shake head no small_Blink_circ
+35,35,Look up_shake head no small_Double Blink_lin
+36,36,Look up_shake head no small_Double Blink_sine
+37,37,Look up_shake head no small_Double Blink_elastic
+38,38,Look up_shake head no small_Double Blink_back
+39,39,Look up_shake head no small_Double Blink_circ
+40,40,Look up_shake head no small_Happy_lin
+41,41,Look up_shake head no small_Happy_sine
+42,42,Look up_shake head no small_Happy_elastic
+43,43,Look up_shake head no small_Happy_back
+44,44,Look up_shake head no small_Happy_circ
+45,45,Look up_shake head no small_sad_lin
+46,46,Look up_shake head no small_sad_sine
+47,47,Look up_shake head no small_sad_elastic
+48,48,Look up_shake head no small_sad_back
+49,49,Look up_shake head no small_sad_circ
+50,50,Look Down_shake head no small_None_lin
+51,51,Look Down_shake head no small_None_sine
+52,52,Look Down_shake head no small_None_elastic
+53,53,Look Down_shake head no small_None_back
+54,54,Look Down_shake head no small_None_circ
+55,55,Look Down_shake head no small_Blink_lin
+56,56,Look Down_shake head no small_Blink_sine
+57,57,Look Down_shake head no small_Blink_elastic
+58,58,Look Down_shake head no small_Blink_back
+59,59,Look Down_shake head no small_Blink_circ
+60,60,Look Down_shake head no small_Double Blink_lin
+61,61,Look Down_shake head no small_Double Blink_sine
+62,62,Look Down_shake head no small_Double Blink_elastic
+63,63,Look Down_shake head no small_Double Blink_back
+64,64,Look Down_shake head no small_Double Blink_circ
+65,65,Look Down_shake head no small_Happy_lin
+66,66,Look Down_shake head no small_Happy_sine
+67,67,Look Down_shake head no small_Happy_elastic
+68,68,Look Down_shake head no small_Happy_back
+69,69,Look Down_shake head no small_Happy_circ
+70,70,Look Down_shake head no small_sad_lin
+71,71,Look Down_shake head no small_sad_sine
+72,72,Look Down_shake head no small_sad_elastic
+73,73,Look Down_shake head no small_sad_back
+74,74,Look Down_shake head no small_sad_circ
+75,75,nod_shake head no small_None_lin
+76,76,nod_shake head no small_None_sine
+77,77,nod_shake head no small_None_elastic
+78,78,nod_shake head no small_None_back
+79,79,nod_shake head no small_None_circ
+80,80,nod_shake head no small_Blink_lin
+81,81,nod_shake head no small_Blink_sine
+82,82,nod_shake head no small_Blink_elastic
+83,83,nod_shake head no small_Blink_back
+84,84,nod_shake head no small_Blink_circ
+85,85,nod_shake head no small_Double Blink_lin
+86,86,nod_shake head no small_Double Blink_sine
+87,87,nod_shake head no small_Double Blink_elastic
+88,88,nod_shake head no small_Double Blink_back
+89,89,nod_shake head no small_Double Blink_circ
+90,90,nod_shake head no small_Happy_lin
+91,91,nod_shake head no small_Happy_sine
+92,92,nod_shake head no small_Happy_elastic
+93,93,nod_shake head no small_Happy_back
+94,94,nod_shake head no small_Happy_circ
+95,95,nod_shake head no small_sad_lin
+96,96,nod_shake head no small_sad_sine
+97,97,nod_shake head no small_sad_elastic
+98,98,nod_shake head no small_sad_back
+99,99,nod_shake head no small_sad_circ
+100,100,tick up_shake head no small_None_lin
+101,101,tick up_shake head no small_None_sine
+102,102,tick up_shake head no small_None_elastic
+103,103,tick up_shake head no small_None_back
+104,104,tick up_shake head no small_None_circ
+105,105,tick up_shake head no small_Blink_lin
+106,106,tick up_shake head no small_Blink_sine
+107,107,tick up_shake head no small_Blink_elastic
+108,108,tick up_shake head no small_Blink_back
+109,109,tick up_shake head no small_Blink_circ
+110,110,tick up_shake head no small_Double Blink_lin
+111,111,tick up_shake head no small_Double Blink_sine
+112,112,tick up_shake head no small_Double Blink_elastic
+113,113,tick up_shake head no small_Double Blink_back
+114,114,tick up_shake head no small_Double Blink_circ
+115,115,tick up_shake head no small_Happy_lin
+116,116,tick up_shake head no small_Happy_sine
+117,117,tick up_shake head no small_Happy_elastic
+118,118,tick up_shake head no small_Happy_back
+119,119,tick up_shake head no small_Happy_circ
+120,120,tick up_shake head no small_sad_lin
+121,121,tick up_shake head no small_sad_sine
+122,122,tick up_shake head no small_sad_elastic
+123,123,tick up_shake head no small_sad_back
+124,124,tick up_shake head no small_sad_circ
+125,125,None_shake head no medium_None_lin
+126,126,None_shake head no medium_None_sine
+127,127,None_shake head no medium_None_elastic
+128,128,None_shake head no medium_None_back
+129,129,None_shake head no medium_None_circ
+130,130,None_shake head no medium_Blink_lin
+131,131,None_shake head no medium_Blink_sine
+132,132,None_shake head no medium_Blink_elastic
+133,133,None_shake head no medium_Blink_back
+134,134,None_shake head no medium_Blink_circ
+135,135,None_shake head no medium_Double Blink_lin
+136,136,None_shake head no medium_Double Blink_sine
+137,137,None_shake head no medium_Double Blink_elastic
+138,138,None_shake head no medium_Double Blink_back
+139,139,None_shake head no medium_Double Blink_circ
+140,140,None_shake head no medium_Happy_lin
+141,141,None_shake head no medium_Happy_sine
+142,142,None_shake head no medium_Happy_elastic
+143,143,None_shake head no medium_Happy_back
+144,144,None_shake head no medium_Happy_circ
+145,145,None_shake head no medium_sad_lin
+146,146,None_shake head no medium_sad_sine
+147,147,None_shake head no medium_sad_elastic
+148,148,None_shake head no medium_sad_back
+149,149,None_shake head no medium_sad_circ
+150,150,Look up_shake head no medium_None_lin
+151,151,Look up_shake head no medium_None_sine
+152,152,Look up_shake head no medium_None_elastic
+153,153,Look up_shake head no medium_None_back
+154,154,Look up_shake head no medium_None_circ
+155,155,Look up_shake head no medium_Blink_lin
+156,156,Look up_shake head no medium_Blink_sine
+157,157,Look up_shake head no medium_Blink_elastic
+158,158,Look up_shake head no medium_Blink_back
+159,159,Look up_shake head no medium_Blink_circ
+160,160,Look up_shake head no medium_Double Blink_lin
+161,161,Look up_shake head no medium_Double Blink_sine
+162,162,Look up_shake head no medium_Double Blink_elastic
+163,163,Look up_shake head no medium_Double Blink_back
+164,164,Look up_shake head no medium_Double Blink_circ
+165,165,Look up_shake head no medium_Happy_lin
+166,166,Look up_shake head no medium_Happy_sine
+167,167,Look up_shake head no medium_Happy_elastic
+168,168,Look up_shake head no medium_Happy_back
+169,169,Look up_shake head no medium_Happy_circ
+170,170,Look up_shake head no medium_sad_lin
+171,171,Look up_shake head no medium_sad_sine
+172,172,Look up_shake head no medium_sad_elastic
+173,173,Look up_shake head no medium_sad_back
+174,174,Look up_shake head no medium_sad_circ
+175,175,Look Down_shake head no medium_None_lin
+176,176,Look Down_shake head no medium_None_sine
+177,177,Look Down_shake head no medium_None_elastic
+178,178,Look Down_shake head no medium_None_back
+179,179,Look Down_shake head no medium_None_circ
+180,180,Look Down_shake head no medium_Blink_lin
+181,181,Look Down_shake head no medium_Blink_sine
+182,182,Look Down_shake head no medium_Blink_elastic
+183,183,Look Down_shake head no medium_Blink_back
+184,184,Look Down_shake head no medium_Blink_circ
+185,185,Look Down_shake head no medium_Double Blink_lin
+186,186,Look Down_shake head no medium_Double Blink_sine
+187,187,Look Down_shake head no medium_Double Blink_elastic
+188,188,Look Down_shake head no medium_Double Blink_back
+189,189,Look Down_shake head no medium_Double Blink_circ
+190,190,Look Down_shake head no medium_Happy_lin
+191,191,Look Down_shake head no medium_Happy_sine
+192,192,Look Down_shake head no medium_Happy_elastic
+193,193,Look Down_shake head no medium_Happy_back
+194,194,Look Down_shake head no medium_Happy_circ
+195,195,Look Down_shake head no medium_sad_lin
+196,196,Look Down_shake head no medium_sad_sine
+197,197,Look Down_shake head no medium_sad_elastic
+198,198,Look Down_shake head no medium_sad_back
+199,199,Look Down_shake head no medium_sad_circ
+200,200,nod_shake head no medium_None_lin
+201,201,nod_shake head no medium_None_sine
+202,202,nod_shake head no medium_None_elastic
+203,203,nod_shake head no medium_None_back
+204,204,nod_shake head no medium_None_circ
+205,205,nod_shake head no medium_Blink_lin
+206,206,nod_shake head no medium_Blink_sine
+207,207,nod_shake head no medium_Blink_elastic
+208,208,nod_shake head no medium_Blink_back
+209,209,nod_shake head no medium_Blink_circ
+210,210,nod_shake head no medium_Double Blink_lin
+211,211,nod_shake head no medium_Double Blink_sine
+212,212,nod_shake head no medium_Double Blink_elastic
+213,213,nod_shake head no medium_Double Blink_back
+214,214,nod_shake head no medium_Double Blink_circ
+215,215,nod_shake head no medium_Happy_lin
+216,216,nod_shake head no medium_Happy_sine
+217,217,nod_shake head no medium_Happy_elastic
+218,218,nod_shake head no medium_Happy_back
+219,219,nod_shake head no medium_Happy_circ
+220,220,nod_shake head no medium_sad_lin
+221,221,nod_shake head no medium_sad_sine
+222,222,nod_shake head no medium_sad_elastic
+223,223,nod_shake head no medium_sad_back
+224,224,nod_shake head no medium_sad_circ
+225,225,tick up_shake head no medium_None_lin
+226,226,tick up_shake head no medium_None_sine
+227,227,tick up_shake head no medium_None_elastic
+228,228,tick up_shake head no medium_None_back
+229,229,tick up_shake head no medium_None_circ
+230,230,tick up_shake head no medium_Blink_lin
+231,231,tick up_shake head no medium_Blink_sine
+232,232,tick up_shake head no medium_Blink_elastic
+233,233,tick up_shake head no medium_Blink_back
+234,234,tick up_shake head no medium_Blink_circ
+235,235,tick up_shake head no medium_Double Blink_lin
+236,236,tick up_shake head no medium_Double Blink_sine
+237,237,tick up_shake head no medium_Double Blink_elastic
+238,238,tick up_shake head no medium_Double Blink_back
+239,239,tick up_shake head no medium_Double Blink_circ
+240,240,tick up_shake head no medium_Happy_lin
+241,241,tick up_shake head no medium_Happy_sine
+242,242,tick up_shake head no medium_Happy_elastic
+243,243,tick up_shake head no medium_Happy_back
+244,244,tick up_shake head no medium_Happy_circ
+245,245,tick up_shake head no medium_sad_lin
+246,246,tick up_shake head no medium_sad_sine
+247,247,tick up_shake head no medium_sad_elastic
+248,248,tick up_shake head no medium_sad_back
+249,249,tick up_shake head no medium_sad_circ
+250,250,None_shake head no large_None_lin
+251,251,None_shake head no large_None_sine
+252,252,None_shake head no large_None_elastic
+253,253,None_shake head no large_None_back
+254,254,None_shake head no large_None_circ
+255,255,None_shake head no large_Blink_lin
+256,256,None_shake head no large_Blink_sine
+257,257,None_shake head no large_Blink_elastic
+258,258,None_shake head no large_Blink_back
+259,259,None_shake head no large_Blink_circ
+260,260,None_shake head no large_Double Blink_lin
+261,261,None_shake head no large_Double Blink_sine
+262,262,None_shake head no large_Double Blink_elastic
+263,263,None_shake head no large_Double Blink_back
+264,264,None_shake head no large_Double Blink_circ
+265,265,None_shake head no large_Happy_lin
+266,266,None_shake head no large_Happy_sine
+267,267,None_shake head no large_Happy_elastic
+268,268,None_shake head no large_Happy_back
+269,269,None_shake head no large_Happy_circ
+270,270,None_shake head no large_sad_lin
+271,271,None_shake head no large_sad_sine
+272,272,None_shake head no large_sad_elastic
+273,273,None_shake head no large_sad_back
+274,274,None_shake head no large_sad_circ
+275,275,Look up_shake head no large_None_lin
+276,276,Look up_shake head no large_None_sine
+277,277,Look up_shake head no large_None_elastic
+278,278,Look up_shake head no large_None_back
+279,279,Look up_shake head no large_None_circ
+280,280,Look up_shake head no large_Blink_lin
+281,281,Look up_shake head no large_Blink_sine
+282,282,Look up_shake head no large_Blink_elastic
+283,283,Look up_shake head no large_Blink_back
+284,284,Look up_shake head no large_Blink_circ
+285,285,Look up_shake head no large_Double Blink_lin
+286,286,Look up_shake head no large_Double Blink_sine
+287,287,Look up_shake head no large_Double Blink_elastic
+288,288,Look up_shake head no large_Double Blink_back
+289,289,Look up_shake head no large_Double Blink_circ
+290,290,Look up_shake head no large_Happy_lin
+291,291,Look up_shake head no large_Happy_sine
+292,292,Look up_shake head no large_Happy_elastic
+293,293,Look up_shake head no large_Happy_back
+294,294,Look up_shake head no large_Happy_circ
+295,295,Look up_shake head no large_sad_lin
+296,296,Look up_shake head no large_sad_sine
+297,297,Look up_shake head no large_sad_elastic
+298,298,Look up_shake head no large_sad_back
+299,299,Look up_shake head no large_sad_circ
+300,300,Look Down_shake head no large_None_lin
+301,301,Look Down_shake head no large_None_sine
+302,302,Look Down_shake head no large_None_elastic
+303,303,Look Down_shake head no large_None_back
+304,304,Look Down_shake head no large_None_circ
+305,305,Look Down_shake head no large_Blink_lin
+306,306,Look Down_shake head no large_Blink_sine
+307,307,Look Down_shake head no large_Blink_elastic
+308,308,Look Down_shake head no large_Blink_back
+309,309,Look Down_shake head no large_Blink_circ
+310,310,Look Down_shake head no large_Double Blink_lin
+311,311,Look Down_shake head no large_Double Blink_sine
+312,312,Look Down_shake head no large_Double Blink_elastic
+313,313,Look Down_shake head no large_Double Blink_back
+314,314,Look Down_shake head no large_Double Blink_circ
+315,315,Look Down_shake head no large_Happy_lin
+316,316,Look Down_shake head no large_Happy_sine
+317,317,Look Down_shake head no large_Happy_elastic
+318,318,Look Down_shake head no large_Happy_back
+319,319,Look Down_shake head no large_Happy_circ
+320,320,Look Down_shake head no large_sad_lin
+321,321,Look Down_shake head no large_sad_sine
+322,322,Look Down_shake head no large_sad_elastic
+323,323,Look Down_shake head no large_sad_back
+324,324,Look Down_shake head no large_sad_circ
+325,325,nod_shake head no large_None_lin
+326,326,nod_shake head no large_None_sine
+327,327,nod_shake head no large_None_elastic
+328,328,nod_shake head no large_None_back
+329,329,nod_shake head no large_None_circ
+330,330,nod_shake head no large_Blink_lin
+331,331,nod_shake head no large_Blink_sine
+332,332,nod_shake head no large_Blink_elastic
+333,333,nod_shake head no large_Blink_back
+334,334,nod_shake head no large_Blink_circ
+335,335,nod_shake head no large_Double Blink_lin
+336,336,nod_shake head no large_Double Blink_sine
+337,337,nod_shake head no large_Double Blink_elastic
+338,338,nod_shake head no large_Double Blink_back
+339,339,nod_shake head no large_Double Blink_circ
+340,340,nod_shake head no large_Happy_lin
+341,341,nod_shake head no large_Happy_sine
+342,342,nod_shake head no large_Happy_elastic
+343,343,nod_shake head no large_Happy_back
+344,344,nod_shake head no large_Happy_circ
+345,345,nod_shake head no large_sad_lin
+346,346,nod_shake head no large_sad_sine
+347,347,nod_shake head no large_sad_elastic
+348,348,nod_shake head no large_sad_back
+349,349,nod_shake head no large_sad_circ
+350,350,tick up_shake head no large_None_lin
+351,351,tick up_shake head no large_None_sine
+352,352,tick up_shake head no large_None_elastic
+353,353,tick up_shake head no large_None_back
+354,354,tick up_shake head no large_None_circ
+355,355,tick up_shake head no large_Blink_lin
+356,356,tick up_shake head no large_Blink_sine
+357,357,tick up_shake head no large_Blink_elastic
+358,358,tick up_shake head no large_Blink_back
+359,359,tick up_shake head no large_Blink_circ
+360,360,tick up_shake head no large_Double Blink_lin
+361,361,tick up_shake head no large_Double Blink_sine
+362,362,tick up_shake head no large_Double Blink_elastic
+363,363,tick up_shake head no large_Double Blink_back
+364,364,tick up_shake head no large_Double Blink_circ
+365,365,tick up_shake head no large_Happy_lin
+366,366,tick up_shake head no large_Happy_sine
+367,367,tick up_shake head no large_Happy_elastic
+368,368,tick up_shake head no large_Happy_back
+369,369,tick up_shake head no large_Happy_circ
+370,370,tick up_shake head no large_sad_lin
+371,371,tick up_shake head no large_sad_sine
+372,372,tick up_shake head no large_sad_elastic
+373,373,tick up_shake head no large_sad_back
+374,374,tick up_shake head no large_sad_circ
+375,375,None_look left small_None_lin
+376,376,None_look left small_None_sine
+377,377,None_look left small_None_elastic
+378,378,None_look left small_None_back
+379,379,None_look left small_None_circ
+380,380,None_look left small_Blink_lin
+381,381,None_look left small_Blink_sine
+382,382,None_look left small_Blink_elastic
+383,383,None_look left small_Blink_back
+384,384,None_look left small_Blink_circ
+385,385,None_look left small_Double Blink_lin
+386,386,None_look left small_Double Blink_sine
+387,387,None_look left small_Double Blink_elastic
+388,388,None_look left small_Double Blink_back
+389,389,None_look left small_Double Blink_circ
+390,390,None_look left small_Happy_lin
+391,391,None_look left small_Happy_sine
+392,392,None_look left small_Happy_elastic
+393,393,None_look left small_Happy_back
+394,394,None_look left small_Happy_circ
+395,395,None_look left small_sad_lin
+396,396,None_look left small_sad_sine
+397,397,None_look left small_sad_elastic
+398,398,None_look left small_sad_back
+399,399,None_look left small_sad_circ
+400,400,Look up_look left small_None_lin
+401,401,Look up_look left small_None_sine
+402,402,Look up_look left small_None_elastic
+403,403,Look up_look left small_None_back
+404,404,Look up_look left small_None_circ
+405,405,Look up_look left small_Blink_lin
+406,406,Look up_look left small_Blink_sine
+407,407,Look up_look left small_Blink_elastic
+408,408,Look up_look left small_Blink_back
+409,409,Look up_look left small_Blink_circ
+410,410,Look up_look left small_Double Blink_lin
+411,411,Look up_look left small_Double Blink_sine
+412,412,Look up_look left small_Double Blink_elastic
+413,413,Look up_look left small_Double Blink_back
+414,414,Look up_look left small_Double Blink_circ
+415,415,Look up_look left small_Happy_lin
+416,416,Look up_look left small_Happy_sine
+417,417,Look up_look left small_Happy_elastic
+418,418,Look up_look left small_Happy_back
+419,419,Look up_look left small_Happy_circ
+420,420,Look up_look left small_sad_lin
+421,421,Look up_look left small_sad_sine
+422,422,Look up_look left small_sad_elastic
+423,423,Look up_look left small_sad_back
+424,424,Look up_look left small_sad_circ
+425,425,Look Down_look left small_None_lin
+426,426,Look Down_look left small_None_sine
+427,427,Look Down_look left small_None_elastic
+428,428,Look Down_look left small_None_back
+429,429,Look Down_look left small_None_circ
+430,430,Look Down_look left small_Blink_lin
+431,431,Look Down_look left small_Blink_sine
+432,432,Look Down_look left small_Blink_elastic
+433,433,Look Down_look left small_Blink_back
+434,434,Look Down_look left small_Blink_circ
+435,435,Look Down_look left small_Double Blink_lin
+436,436,Look Down_look left small_Double Blink_sine
+437,437,Look Down_look left small_Double Blink_elastic
+438,438,Look Down_look left small_Double Blink_back
+439,439,Look Down_look left small_Double Blink_circ
+440,440,Look Down_look left small_Happy_lin
+441,441,Look Down_look left small_Happy_sine
+442,442,Look Down_look left small_Happy_elastic
+443,443,Look Down_look left small_Happy_back
+444,444,Look Down_look left small_Happy_circ
+445,445,Look Down_look left small_sad_lin
+446,446,Look Down_look left small_sad_sine
+447,447,Look Down_look left small_sad_elastic
+448,448,Look Down_look left small_sad_back
+449,449,Look Down_look left small_sad_circ
+450,450,nod_look left small_None_lin
+451,451,nod_look left small_None_sine
+452,452,nod_look left small_None_elastic
+453,453,nod_look left small_None_back
+454,454,nod_look left small_None_circ
+455,455,nod_look left small_Blink_lin
+456,456,nod_look left small_Blink_sine
+457,457,nod_look left small_Blink_elastic
+458,458,nod_look left small_Blink_back
+459,459,nod_look left small_Blink_circ
+460,460,nod_look left small_Double Blink_lin
+461,461,nod_look left small_Double Blink_sine
+462,462,nod_look left small_Double Blink_elastic
+463,463,nod_look left small_Double Blink_back
+464,464,nod_look left small_Double Blink_circ
+465,465,nod_look left small_Happy_lin
+466,466,nod_look left small_Happy_sine
+467,467,nod_look left small_Happy_elastic
+468,468,nod_look left small_Happy_back
+469,469,nod_look left small_Happy_circ
+470,470,nod_look left small_sad_lin
+471,471,nod_look left small_sad_sine
+472,472,nod_look left small_sad_elastic
+473,473,nod_look left small_sad_back
+474,474,nod_look left small_sad_circ
+475,475,tick up_look left small_None_lin
+476,476,tick up_look left small_None_sine
+477,477,tick up_look left small_None_elastic
+478,478,tick up_look left small_None_back
+479,479,tick up_look left small_None_circ
+480,480,tick up_look left small_Blink_lin
+481,481,tick up_look left small_Blink_sine
+482,482,tick up_look left small_Blink_elastic
+483,483,tick up_look left small_Blink_back
+484,484,tick up_look left small_Blink_circ
+485,485,tick up_look left small_Double Blink_lin
+486,486,tick up_look left small_Double Blink_sine
+487,487,tick up_look left small_Double Blink_elastic
+488,488,tick up_look left small_Double Blink_back
+489,489,tick up_look left small_Double Blink_circ
+490,490,tick up_look left small_Happy_lin
+491,491,tick up_look left small_Happy_sine
+492,492,tick up_look left small_Happy_elastic
+493,493,tick up_look left small_Happy_back
+494,494,tick up_look left small_Happy_circ
+495,495,tick up_look left small_sad_lin
+496,496,tick up_look left small_sad_sine
+497,497,tick up_look left small_sad_elastic
+498,498,tick up_look left small_sad_back
+499,499,tick up_look left small_sad_circ
+500,500,None_look left medium_None_lin
+501,501,None_look left medium_None_sine
+502,502,None_look left medium_None_elastic
+503,503,None_look left medium_None_back
+504,504,None_look left medium_None_circ
+505,505,None_look left medium_Blink_lin
+506,506,None_look left medium_Blink_sine
+507,507,None_look left medium_Blink_elastic
+508,508,None_look left medium_Blink_back
+509,509,None_look left medium_Blink_circ
+510,510,None_look left medium_Double Blink_lin
+511,511,None_look left medium_Double Blink_sine
+512,512,None_look left medium_Double Blink_elastic
+513,513,None_look left medium_Double Blink_back
+514,514,None_look left medium_Double Blink_circ
+515,515,None_look left medium_Happy_lin
+516,516,None_look left medium_Happy_sine
+517,517,None_look left medium_Happy_elastic
+518,518,None_look left medium_Happy_back
+519,519,None_look left medium_Happy_circ
+520,520,None_look left medium_sad_lin
+521,521,None_look left medium_sad_sine
+522,522,None_look left medium_sad_elastic
+523,523,None_look left medium_sad_back
+524,524,None_look left medium_sad_circ
+525,525,Look up_look left medium_None_lin
+526,526,Look up_look left medium_None_sine
+527,527,Look up_look left medium_None_elastic
+528,528,Look up_look left medium_None_back
+529,529,Look up_look left medium_None_circ
+530,530,Look up_look left medium_Blink_lin
+531,531,Look up_look left medium_Blink_sine
+532,532,Look up_look left medium_Blink_elastic
+533,533,Look up_look left medium_Blink_back
+534,534,Look up_look left medium_Blink_circ
+535,535,Look up_look left medium_Double Blink_lin
+536,536,Look up_look left medium_Double Blink_sine
+537,537,Look up_look left medium_Double Blink_elastic
+538,538,Look up_look left medium_Double Blink_back
+539,539,Look up_look left medium_Double Blink_circ
+540,540,Look up_look left medium_Happy_lin
+541,541,Look up_look left medium_Happy_sine
+542,542,Look up_look left medium_Happy_elastic
+543,543,Look up_look left medium_Happy_back
+544,544,Look up_look left medium_Happy_circ
+545,545,Look up_look left medium_sad_lin
+546,546,Look up_look left medium_sad_sine
+547,547,Look up_look left medium_sad_elastic
+548,548,Look up_look left medium_sad_back
+549,549,Look up_look left medium_sad_circ
+550,550,Look Down_look left medium_None_lin
+551,551,Look Down_look left medium_None_sine
+552,552,Look Down_look left medium_None_elastic
+553,553,Look Down_look left medium_None_back
+554,554,Look Down_look left medium_None_circ
+555,555,Look Down_look left medium_Blink_lin
+556,556,Look Down_look left medium_Blink_sine
+557,557,Look Down_look left medium_Blink_elastic
+558,558,Look Down_look left medium_Blink_back
+559,559,Look Down_look left medium_Blink_circ
+560,560,Look Down_look left medium_Double Blink_lin
+561,561,Look Down_look left medium_Double Blink_sine
+562,562,Look Down_look left medium_Double Blink_elastic
+563,563,Look Down_look left medium_Double Blink_back
+564,564,Look Down_look left medium_Double Blink_circ
+565,565,Look Down_look left medium_Happy_lin
+566,566,Look Down_look left medium_Happy_sine
+567,567,Look Down_look left medium_Happy_elastic
+568,568,Look Down_look left medium_Happy_back
+569,569,Look Down_look left medium_Happy_circ
+570,570,Look Down_look left medium_sad_lin
+571,571,Look Down_look left medium_sad_sine
+572,572,Look Down_look left medium_sad_elastic
+573,573,Look Down_look left medium_sad_back
+574,574,Look Down_look left medium_sad_circ
+575,575,nod_look left medium_None_lin
+576,576,nod_look left medium_None_sine
+577,577,nod_look left medium_None_elastic
+578,578,nod_look left medium_None_back
+579,579,nod_look left medium_None_circ
+580,580,nod_look left medium_Blink_lin
+581,581,nod_look left medium_Blink_sine
+582,582,nod_look left medium_Blink_elastic
+583,583,nod_look left medium_Blink_back
+584,584,nod_look left medium_Blink_circ
+585,585,nod_look left medium_Double Blink_lin
+586,586,nod_look left medium_Double Blink_sine
+587,587,nod_look left medium_Double Blink_elastic
+588,588,nod_look left medium_Double Blink_back
+589,589,nod_look left medium_Double Blink_circ
+590,590,nod_look left medium_Happy_lin
+591,591,nod_look left medium_Happy_sine
+592,592,nod_look left medium_Happy_elastic
+593,593,nod_look left medium_Happy_back
+594,594,nod_look left medium_Happy_circ
+595,595,nod_look left medium_sad_lin
+596,596,nod_look left medium_sad_sine
+597,597,nod_look left medium_sad_elastic
+598,598,nod_look left medium_sad_back
+599,599,nod_look left medium_sad_circ
+600,600,tick up_look left medium_None_lin
+601,601,tick up_look left medium_None_sine
+602,602,tick up_look left medium_None_elastic
+603,603,tick up_look left medium_None_back
+604,604,tick up_look left medium_None_circ
+605,605,tick up_look left medium_Blink_lin
+606,606,tick up_look left medium_Blink_sine
+607,607,tick up_look left medium_Blink_elastic
+608,608,tick up_look left medium_Blink_back
+609,609,tick up_look left medium_Blink_circ
+610,610,tick up_look left medium_Double Blink_lin
+611,611,tick up_look left medium_Double Blink_sine
+612,612,tick up_look left medium_Double Blink_elastic
+613,613,tick up_look left medium_Double Blink_back
+614,614,tick up_look left medium_Double Blink_circ
+615,615,tick up_look left medium_Happy_lin
+616,616,tick up_look left medium_Happy_sine
+617,617,tick up_look left medium_Happy_elastic
+618,618,tick up_look left medium_Happy_back
+619,619,tick up_look left medium_Happy_circ
+620,620,tick up_look left medium_sad_lin
+621,621,tick up_look left medium_sad_sine
+622,622,tick up_look left medium_sad_elastic
+623,623,tick up_look left medium_sad_back
+624,624,tick up_look left medium_sad_circ
+625,625,None_look left large_None_lin
+626,626,None_look left large_None_sine
+627,627,None_look left large_None_elastic
+628,628,None_look left large_None_back
+629,629,None_look left large_None_circ
+630,630,None_look left large_Blink_lin
+631,631,None_look left large_Blink_sine
+632,632,None_look left large_Blink_elastic
+633,633,None_look left large_Blink_back
+634,634,None_look left large_Blink_circ
+635,635,None_look left large_Double Blink_lin
+636,636,None_look left large_Double Blink_sine
+637,637,None_look left large_Double Blink_elastic
+638,638,None_look left large_Double Blink_back
+639,639,None_look left large_Double Blink_circ
+640,640,None_look left large_Happy_lin
+641,641,None_look left large_Happy_sine
+642,642,None_look left large_Happy_elastic
+643,643,None_look left large_Happy_back
+644,644,None_look left large_Happy_circ
+645,645,None_look left large_sad_lin
+646,646,None_look left large_sad_sine
+647,647,None_look left large_sad_elastic
+648,648,None_look left large_sad_back
+649,649,None_look left large_sad_circ
+650,650,Look up_look left large_None_lin
+651,651,Look up_look left large_None_sine
+652,652,Look up_look left large_None_elastic
+653,653,Look up_look left large_None_back
+654,654,Look up_look left large_None_circ
+655,655,Look up_look left large_Blink_lin
+656,656,Look up_look left large_Blink_sine
+657,657,Look up_look left large_Blink_elastic
+658,658,Look up_look left large_Blink_back
+659,659,Look up_look left large_Blink_circ
+660,660,Look up_look left large_Double Blink_lin
+661,661,Look up_look left large_Double Blink_sine
+662,662,Look up_look left large_Double Blink_elastic
+663,663,Look up_look left large_Double Blink_back
+664,664,Look up_look left large_Double Blink_circ
+665,665,Look up_look left large_Happy_lin
+666,666,Look up_look left large_Happy_sine
+667,667,Look up_look left large_Happy_elastic
+668,668,Look up_look left large_Happy_back
+669,669,Look up_look left large_Happy_circ
+670,670,Look up_look left large_sad_lin
+671,671,Look up_look left large_sad_sine
+672,672,Look up_look left large_sad_elastic
+673,673,Look up_look left large_sad_back
+674,674,Look up_look left large_sad_circ
+675,675,Look Down_look left large_None_lin
+676,676,Look Down_look left large_None_sine
+677,677,Look Down_look left large_None_elastic
+678,678,Look Down_look left large_None_back
+679,679,Look Down_look left large_None_circ
+680,680,Look Down_look left large_Blink_lin
+681,681,Look Down_look left large_Blink_sine
+682,682,Look Down_look left large_Blink_elastic
+683,683,Look Down_look left large_Blink_back
+684,684,Look Down_look left large_Blink_circ
+685,685,Look Down_look left large_Double Blink_lin
+686,686,Look Down_look left large_Double Blink_sine
+687,687,Look Down_look left large_Double Blink_elastic
+688,688,Look Down_look left large_Double Blink_back
+689,689,Look Down_look left large_Double Blink_circ
+690,690,Look Down_look left large_Happy_lin
+691,691,Look Down_look left large_Happy_sine
+692,692,Look Down_look left large_Happy_elastic
+693,693,Look Down_look left large_Happy_back
+694,694,Look Down_look left large_Happy_circ
+695,695,Look Down_look left large_sad_lin
+696,696,Look Down_look left large_sad_sine
+697,697,Look Down_look left large_sad_elastic
+698,698,Look Down_look left large_sad_back
+699,699,Look Down_look left large_sad_circ
+700,700,nod_look left large_None_lin
+701,701,nod_look left large_None_sine
+702,702,nod_look left large_None_elastic
+703,703,nod_look left large_None_back
+704,704,nod_look left large_None_circ
+705,705,nod_look left large_Blink_lin
+706,706,nod_look left large_Blink_sine
+707,707,nod_look left large_Blink_elastic
+708,708,nod_look left large_Blink_back
+709,709,nod_look left large_Blink_circ
+710,710,nod_look left large_Double Blink_lin
+711,711,nod_look left large_Double Blink_sine
+712,712,nod_look left large_Double Blink_elastic
+713,713,nod_look left large_Double Blink_back
+714,714,nod_look left large_Double Blink_circ
+715,715,nod_look left large_Happy_lin
+716,716,nod_look left large_Happy_sine
+717,717,nod_look left large_Happy_elastic
+718,718,nod_look left large_Happy_back
+719,719,nod_look left large_Happy_circ
+720,720,nod_look left large_sad_lin
+721,721,nod_look left large_sad_sine
+722,722,nod_look left large_sad_elastic
+723,723,nod_look left large_sad_back
+724,724,nod_look left large_sad_circ
+725,725,tick up_look left large_None_lin
+726,726,tick up_look left large_None_sine
+727,727,tick up_look left large_None_elastic
+728,728,tick up_look left large_None_back
+729,729,tick up_look left large_None_circ
+730,730,tick up_look left large_Blink_lin
+731,731,tick up_look left large_Blink_sine
+732,732,tick up_look left large_Blink_elastic
+733,733,tick up_look left large_Blink_back
+734,734,tick up_look left large_Blink_circ
+735,735,tick up_look left large_Double Blink_lin
+736,736,tick up_look left large_Double Blink_sine
+737,737,tick up_look left large_Double Blink_elastic
+738,738,tick up_look left large_Double Blink_back
+739,739,tick up_look left large_Double Blink_circ
+740,740,tick up_look left large_Happy_lin
+741,741,tick up_look left large_Happy_sine
+742,742,tick up_look left large_Happy_elastic
+743,743,tick up_look left large_Happy_back
+744,744,tick up_look left large_Happy_circ
+745,745,tick up_look left large_sad_lin
+746,746,tick up_look left large_sad_sine
+747,747,tick up_look left large_sad_elastic
+748,748,tick up_look left large_sad_back
+749,749,tick up_look left large_sad_circ
+750,750,None_look right small_None_lin
+751,751,None_look right small_None_sine
+752,752,None_look right small_None_elastic
+753,753,None_look right small_None_back
+754,754,None_look right small_None_circ
+755,755,None_look right small_Blink_lin
+756,756,None_look right small_Blink_sine
+757,757,None_look right small_Blink_elastic
+758,758,None_look right small_Blink_back
+759,759,None_look right small_Blink_circ
+760,760,None_look right small_Double Blink_lin
+761,761,None_look right small_Double Blink_sine
+762,762,None_look right small_Double Blink_elastic
+763,763,None_look right small_Double Blink_back
+764,764,None_look right small_Double Blink_circ
+765,765,None_look right small_Happy_lin
+766,766,None_look right small_Happy_sine
+767,767,None_look right small_Happy_elastic
+768,768,None_look right small_Happy_back
+769,769,None_look right small_Happy_circ
+770,770,None_look right small_sad_lin
+771,771,None_look right small_sad_sine
+772,772,None_look right small_sad_elastic
+773,773,None_look right small_sad_back
+774,774,None_look right small_sad_circ
+775,775,Look up_look right small_None_lin
+776,776,Look up_look right small_None_sine
+777,777,Look up_look right small_None_elastic
+778,778,Look up_look right small_None_back
+779,779,Look up_look right small_None_circ
+780,780,Look up_look right small_Blink_lin
+781,781,Look up_look right small_Blink_sine
+782,782,Look up_look right small_Blink_elastic
+783,783,Look up_look right small_Blink_back
+784,784,Look up_look right small_Blink_circ
+785,785,Look up_look right small_Double Blink_lin
+786,786,Look up_look right small_Double Blink_sine
+787,787,Look up_look right small_Double Blink_elastic
+788,788,Look up_look right small_Double Blink_back
+789,789,Look up_look right small_Double Blink_circ
+790,790,Look up_look right small_Happy_lin
+791,791,Look up_look right small_Happy_sine
+792,792,Look up_look right small_Happy_elastic
+793,793,Look up_look right small_Happy_back
+794,794,Look up_look right small_Happy_circ
+795,795,Look up_look right small_sad_lin
+796,796,Look up_look right small_sad_sine
+797,797,Look up_look right small_sad_elastic
+798,798,Look up_look right small_sad_back
+799,799,Look up_look right small_sad_circ
+800,800,Look Down_look right small_None_lin
+801,801,Look Down_look right small_None_sine
+802,802,Look Down_look right small_None_elastic
+803,803,Look Down_look right small_None_back
+804,804,Look Down_look right small_None_circ
+805,805,Look Down_look right small_Blink_lin
+806,806,Look Down_look right small_Blink_sine
+807,807,Look Down_look right small_Blink_elastic
+808,808,Look Down_look right small_Blink_back
+809,809,Look Down_look right small_Blink_circ
+810,810,Look Down_look right small_Double Blink_lin
+811,811,Look Down_look right small_Double Blink_sine
+812,812,Look Down_look right small_Double Blink_elastic
+813,813,Look Down_look right small_Double Blink_back
+814,814,Look Down_look right small_Double Blink_circ
+815,815,Look Down_look right small_Happy_lin
+816,816,Look Down_look right small_Happy_sine
+817,817,Look Down_look right small_Happy_elastic
+818,818,Look Down_look right small_Happy_back
+819,819,Look Down_look right small_Happy_circ
+820,820,Look Down_look right small_sad_lin
+821,821,Look Down_look right small_sad_sine
+822,822,Look Down_look right small_sad_elastic
+823,823,Look Down_look right small_sad_back
+824,824,Look Down_look right small_sad_circ
+825,825,nod_look right small_None_lin
+826,826,nod_look right small_None_sine
+827,827,nod_look right small_None_elastic
+828,828,nod_look right small_None_back
+829,829,nod_look right small_None_circ
+830,830,nod_look right small_Blink_lin
+831,831,nod_look right small_Blink_sine
+832,832,nod_look right small_Blink_elastic
+833,833,nod_look right small_Blink_back
+834,834,nod_look right small_Blink_circ
+835,835,nod_look right small_Double Blink_lin
+836,836,nod_look right small_Double Blink_sine
+837,837,nod_look right small_Double Blink_elastic
+838,838,nod_look right small_Double Blink_back
+839,839,nod_look right small_Double Blink_circ
+840,840,nod_look right small_Happy_lin
+841,841,nod_look right small_Happy_sine
+842,842,nod_look right small_Happy_elastic
+843,843,nod_look right small_Happy_back
+844,844,nod_look right small_Happy_circ
+845,845,nod_look right small_sad_lin
+846,846,nod_look right small_sad_sine
+847,847,nod_look right small_sad_elastic
+848,848,nod_look right small_sad_back
+849,849,nod_look right small_sad_circ
+850,850,tick up_look right small_None_lin
+851,851,tick up_look right small_None_sine
+852,852,tick up_look right small_None_elastic
+853,853,tick up_look right small_None_back
+854,854,tick up_look right small_None_circ
+855,855,tick up_look right small_Blink_lin
+856,856,tick up_look right small_Blink_sine
+857,857,tick up_look right small_Blink_elastic
+858,858,tick up_look right small_Blink_back
+859,859,tick up_look right small_Blink_circ
+860,860,tick up_look right small_Double Blink_lin
+861,861,tick up_look right small_Double Blink_sine
+862,862,tick up_look right small_Double Blink_elastic
+863,863,tick up_look right small_Double Blink_back
+864,864,tick up_look right small_Double Blink_circ
+865,865,tick up_look right small_Happy_lin
+866,866,tick up_look right small_Happy_sine
+867,867,tick up_look right small_Happy_elastic
+868,868,tick up_look right small_Happy_back
+869,869,tick up_look right small_Happy_circ
+870,870,tick up_look right small_sad_lin
+871,871,tick up_look right small_sad_sine
+872,872,tick up_look right small_sad_elastic
+873,873,tick up_look right small_sad_back
+874,874,tick up_look right small_sad_circ
+875,875,None_look right medium_None_lin
+876,876,None_look right medium_None_sine
+877,877,None_look right medium_None_elastic
+878,878,None_look right medium_None_back
+879,879,None_look right medium_None_circ
+880,880,None_look right medium_Blink_lin
+881,881,None_look right medium_Blink_sine
+882,882,None_look right medium_Blink_elastic
+883,883,None_look right medium_Blink_back
+884,884,None_look right medium_Blink_circ
+885,885,None_look right medium_Double Blink_lin
+886,886,None_look right medium_Double Blink_sine
+887,887,None_look right medium_Double Blink_elastic
+888,888,None_look right medium_Double Blink_back
+889,889,None_look right medium_Double Blink_circ
+890,890,None_look right medium_Happy_lin
+891,891,None_look right medium_Happy_sine
+892,892,None_look right medium_Happy_elastic
+893,893,None_look right medium_Happy_back
+894,894,None_look right medium_Happy_circ
+895,895,None_look right medium_sad_lin
+896,896,None_look right medium_sad_sine
+897,897,None_look right medium_sad_elastic
+898,898,None_look right medium_sad_back
+899,899,None_look right medium_sad_circ
+900,900,Look up_look right medium_None_lin
+901,901,Look up_look right medium_None_sine
+902,902,Look up_look right medium_None_elastic
+903,903,Look up_look right medium_None_back
+904,904,Look up_look right medium_None_circ
+905,905,Look up_look right medium_Blink_lin
+906,906,Look up_look right medium_Blink_sine
+907,907,Look up_look right medium_Blink_elastic
+908,908,Look up_look right medium_Blink_back
+909,909,Look up_look right medium_Blink_circ
+910,910,Look up_look right medium_Double Blink_lin
+911,911,Look up_look right medium_Double Blink_sine
+912,912,Look up_look right medium_Double Blink_elastic
+913,913,Look up_look right medium_Double Blink_back
+914,914,Look up_look right medium_Double Blink_circ
+915,915,Look up_look right medium_Happy_lin
+916,916,Look up_look right medium_Happy_sine
+917,917,Look up_look right medium_Happy_elastic
+918,918,Look up_look right medium_Happy_back
+919,919,Look up_look right medium_Happy_circ
+920,920,Look up_look right medium_sad_lin
+921,921,Look up_look right medium_sad_sine
+922,922,Look up_look right medium_sad_elastic
+923,923,Look up_look right medium_sad_back
+924,924,Look up_look right medium_sad_circ
+925,925,Look Down_look right medium_None_lin
+926,926,Look Down_look right medium_None_sine
+927,927,Look Down_look right medium_None_elastic
+928,928,Look Down_look right medium_None_back
+929,929,Look Down_look right medium_None_circ
+930,930,Look Down_look right medium_Blink_lin
+931,931,Look Down_look right medium_Blink_sine
+932,932,Look Down_look right medium_Blink_elastic
+933,933,Look Down_look right medium_Blink_back
+934,934,Look Down_look right medium_Blink_circ
+935,935,Look Down_look right medium_Double Blink_lin
+936,936,Look Down_look right medium_Double Blink_sine
+937,937,Look Down_look right medium_Double Blink_elastic
+938,938,Look Down_look right medium_Double Blink_back
+939,939,Look Down_look right medium_Double Blink_circ
+940,940,Look Down_look right medium_Happy_lin
+941,941,Look Down_look right medium_Happy_sine
+942,942,Look Down_look right medium_Happy_elastic
+943,943,Look Down_look right medium_Happy_back
+944,944,Look Down_look right medium_Happy_circ
+945,945,Look Down_look right medium_sad_lin
+946,946,Look Down_look right medium_sad_sine
+947,947,Look Down_look right medium_sad_elastic
+948,948,Look Down_look right medium_sad_back
+949,949,Look Down_look right medium_sad_circ
+950,950,nod_look right medium_None_lin
+951,951,nod_look right medium_None_sine
+952,952,nod_look right medium_None_elastic
+953,953,nod_look right medium_None_back
+954,954,nod_look right medium_None_circ
+955,955,nod_look right medium_Blink_lin
+956,956,nod_look right medium_Blink_sine
+957,957,nod_look right medium_Blink_elastic
+958,958,nod_look right medium_Blink_back
+959,959,nod_look right medium_Blink_circ
+960,960,nod_look right medium_Double Blink_lin
+961,961,nod_look right medium_Double Blink_sine
+962,962,nod_look right medium_Double Blink_elastic
+963,963,nod_look right medium_Double Blink_back
+964,964,nod_look right medium_Double Blink_circ
+965,965,nod_look right medium_Happy_lin
+966,966,nod_look right medium_Happy_sine
+967,967,nod_look right medium_Happy_elastic
+968,968,nod_look right medium_Happy_back
+969,969,nod_look right medium_Happy_circ
+970,970,nod_look right medium_sad_lin
+971,971,nod_look right medium_sad_sine
+972,972,nod_look right medium_sad_elastic
+973,973,nod_look right medium_sad_back
+974,974,nod_look right medium_sad_circ
+975,975,tick up_look right medium_None_lin
+976,976,tick up_look right medium_None_sine
+977,977,tick up_look right medium_None_elastic
+978,978,tick up_look right medium_None_back
+979,979,tick up_look right medium_None_circ
+980,980,tick up_look right medium_Blink_lin
+981,981,tick up_look right medium_Blink_sine
+982,982,tick up_look right medium_Blink_elastic
+983,983,tick up_look right medium_Blink_back
+984,984,tick up_look right medium_Blink_circ
+985,985,tick up_look right medium_Double Blink_lin
+986,986,tick up_look right medium_Double Blink_sine
+987,987,tick up_look right medium_Double Blink_elastic
+988,988,tick up_look right medium_Double Blink_back
+989,989,tick up_look right medium_Double Blink_circ
+990,990,tick up_look right medium_Happy_lin
+991,991,tick up_look right medium_Happy_sine
+992,992,tick up_look right medium_Happy_elastic
+993,993,tick up_look right medium_Happy_back
+994,994,tick up_look right medium_Happy_circ
+995,995,tick up_look right medium_sad_lin
+996,996,tick up_look right medium_sad_sine
+997,997,tick up_look right medium_sad_elastic
+998,998,tick up_look right medium_sad_back
+999,999,tick up_look right medium_sad_circ
+1000,1000,None_look right large_None_lin
+1001,1001,None_look right large_None_sine
+1002,1002,None_look right large_None_elastic
+1003,1003,None_look right large_None_back
+1004,1004,None_look right large_None_circ
+1005,1005,None_look right large_Blink_lin
+1006,1006,None_look right large_Blink_sine
+1007,1007,None_look right large_Blink_elastic
+1008,1008,None_look right large_Blink_back
+1009,1009,None_look right large_Blink_circ
+1010,1010,None_look right large_Double Blink_lin
+1011,1011,None_look right large_Double Blink_sine
+1012,1012,None_look right large_Double Blink_elastic
+1013,1013,None_look right large_Double Blink_back
+1014,1014,None_look right large_Double Blink_circ
+1015,1015,None_look right large_Happy_lin
+1016,1016,None_look right large_Happy_sine
+1017,1017,None_look right large_Happy_elastic
+1018,1018,None_look right large_Happy_back
+1019,1019,None_look right large_Happy_circ
+1020,1020,None_look right large_sad_lin
+1021,1021,None_look right large_sad_sine
+1022,1022,None_look right large_sad_elastic
+1023,1023,None_look right large_sad_back
+1024,1024,None_look right large_sad_circ
+1025,1025,Look up_look right large_None_lin
+1026,1026,Look up_look right large_None_sine
+1027,1027,Look up_look right large_None_elastic
+1028,1028,Look up_look right large_None_back
+1029,1029,Look up_look right large_None_circ
+1030,1030,Look up_look right large_Blink_lin
+1031,1031,Look up_look right large_Blink_sine
+1032,1032,Look up_look right large_Blink_elastic
+1033,1033,Look up_look right large_Blink_back
+1034,1034,Look up_look right large_Blink_circ
+1035,1035,Look up_look right large_Double Blink_lin
+1036,1036,Look up_look right large_Double Blink_sine
+1037,1037,Look up_look right large_Double Blink_elastic
+1038,1038,Look up_look right large_Double Blink_back
+1039,1039,Look up_look right large_Double Blink_circ
+1040,1040,Look up_look right large_Happy_lin
+1041,1041,Look up_look right large_Happy_sine
+1042,1042,Look up_look right large_Happy_elastic
+1043,1043,Look up_look right large_Happy_back
+1044,1044,Look up_look right large_Happy_circ
+1045,1045,Look up_look right large_sad_lin
+1046,1046,Look up_look right large_sad_sine
+1047,1047,Look up_look right large_sad_elastic
+1048,1048,Look up_look right large_sad_back
+1049,1049,Look up_look right large_sad_circ
+1050,1050,Look Down_look right large_None_lin
+1051,1051,Look Down_look right large_None_sine
+1052,1052,Look Down_look right large_None_elastic
+1053,1053,Look Down_look right large_None_back
+1054,1054,Look Down_look right large_None_circ
+1055,1055,Look Down_look right large_Blink_lin
+1056,1056,Look Down_look right large_Blink_sine
+1057,1057,Look Down_look right large_Blink_elastic
+1058,1058,Look Down_look right large_Blink_back
+1059,1059,Look Down_look right large_Blink_circ
+1060,1060,Look Down_look right large_Double Blink_lin
+1061,1061,Look Down_look right large_Double Blink_sine
+1062,1062,Look Down_look right large_Double Blink_elastic
+1063,1063,Look Down_look right large_Double Blink_back
+1064,1064,Look Down_look right large_Double Blink_circ
+1065,1065,Look Down_look right large_Happy_lin
+1066,1066,Look Down_look right large_Happy_sine
+1067,1067,Look Down_look right large_Happy_elastic
+1068,1068,Look Down_look right large_Happy_back
+1069,1069,Look Down_look right large_Happy_circ
+1070,1070,Look Down_look right large_sad_lin
+1071,1071,Look Down_look right large_sad_sine
+1072,1072,Look Down_look right large_sad_elastic
+1073,1073,Look Down_look right large_sad_back
+1074,1074,Look Down_look right large_sad_circ
+1075,1075,nod_look right large_None_lin
+1076,1076,nod_look right large_None_sine
+1077,1077,nod_look right large_None_elastic
+1078,1078,nod_look right large_None_back
+1079,1079,nod_look right large_None_circ
+1080,1080,nod_look right large_Blink_lin
+1081,1081,nod_look right large_Blink_sine
+1082,1082,nod_look right large_Blink_elastic
+1083,1083,nod_look right large_Blink_back
+1084,1084,nod_look right large_Blink_circ
+1085,1085,nod_look right large_Double Blink_lin
+1086,1086,nod_look right large_Double Blink_sine
+1087,1087,nod_look right large_Double Blink_elastic
+1088,1088,nod_look right large_Double Blink_back
+1089,1089,nod_look right large_Double Blink_circ
+1090,1090,nod_look right large_Happy_lin
+1091,1091,nod_look right large_Happy_sine
+1092,1092,nod_look right large_Happy_elastic
+1093,1093,nod_look right large_Happy_back
+1094,1094,nod_look right large_Happy_circ
+1095,1095,nod_look right large_sad_lin
+1096,1096,nod_look right large_sad_sine
+1097,1097,nod_look right large_sad_elastic
+1098,1098,nod_look right large_sad_back
+1099,1099,nod_look right large_sad_circ
+1100,1100,tick up_look right large_None_lin
+1101,1101,tick up_look right large_None_sine
+1102,1102,tick up_look right large_None_elastic
+1103,1103,tick up_look right large_None_back
+1104,1104,tick up_look right large_None_circ
+1105,1105,tick up_look right large_Blink_lin
+1106,1106,tick up_look right large_Blink_sine
+1107,1107,tick up_look right large_Blink_elastic
+1108,1108,tick up_look right large_Blink_back
+1109,1109,tick up_look right large_Blink_circ
+1110,1110,tick up_look right large_Double Blink_lin
+1111,1111,tick up_look right large_Double Blink_sine
+1112,1112,tick up_look right large_Double Blink_elastic
+1113,1113,tick up_look right large_Double Blink_back
+1114,1114,tick up_look right large_Double Blink_circ
+1115,1115,tick up_look right large_Happy_lin
+1116,1116,tick up_look right large_Happy_sine
+1117,1117,tick up_look right large_Happy_elastic
+1118,1118,tick up_look right large_Happy_back
+1119,1119,tick up_look right large_Happy_circ
+1120,1120,tick up_look right large_sad_lin
+1121,1121,tick up_look right large_sad_sine
+1122,1122,tick up_look right large_sad_elastic
+1123,1123,tick up_look right large_sad_back
+1124,1124,tick up_look right large_sad_circ
+1125,1125,None_tick left_None_lin
+1126,1126,None_tick left_None_sine
+1127,1127,None_tick left_None_elastic
+1128,1128,None_tick left_None_back
+1129,1129,None_tick left_None_circ
+1130,1130,None_tick left_Blink_lin
+1131,1131,None_tick left_Blink_sine
+1132,1132,None_tick left_Blink_elastic
+1133,1133,None_tick left_Blink_back
+1134,1134,None_tick left_Blink_circ
+1135,1135,None_tick left_Double Blink_lin
+1136,1136,None_tick left_Double Blink_sine
+1137,1137,None_tick left_Double Blink_elastic
+1138,1138,None_tick left_Double Blink_back
+1139,1139,None_tick left_Double Blink_circ
+1140,1140,None_tick left_Happy_lin
+1141,1141,None_tick left_Happy_sine
+1142,1142,None_tick left_Happy_elastic
+1143,1143,None_tick left_Happy_back
+1144,1144,None_tick left_Happy_circ
+1145,1145,None_tick left_sad_lin
+1146,1146,None_tick left_sad_sine
+1147,1147,None_tick left_sad_elastic
+1148,1148,None_tick left_sad_back
+1149,1149,None_tick left_sad_circ
+1150,1150,Look up_tick left_None_lin
+1151,1151,Look up_tick left_None_sine
+1152,1152,Look up_tick left_None_elastic
+1153,1153,Look up_tick left_None_back
+1154,1154,Look up_tick left_None_circ
+1155,1155,Look up_tick left_Blink_lin
+1156,1156,Look up_tick left_Blink_sine
+1157,1157,Look up_tick left_Blink_elastic
+1158,1158,Look up_tick left_Blink_back
+1159,1159,Look up_tick left_Blink_circ
+1160,1160,Look up_tick left_Double Blink_lin
+1161,1161,Look up_tick left_Double Blink_sine
+1162,1162,Look up_tick left_Double Blink_elastic
+1163,1163,Look up_tick left_Double Blink_back
+1164,1164,Look up_tick left_Double Blink_circ
+1165,1165,Look up_tick left_Happy_lin
+1166,1166,Look up_tick left_Happy_sine
+1167,1167,Look up_tick left_Happy_elastic
+1168,1168,Look up_tick left_Happy_back
+1169,1169,Look up_tick left_Happy_circ
+1170,1170,Look up_tick left_sad_lin
+1171,1171,Look up_tick left_sad_sine
+1172,1172,Look up_tick left_sad_elastic
+1173,1173,Look up_tick left_sad_back
+1174,1174,Look up_tick left_sad_circ
+1175,1175,Look Down_tick left_None_lin
+1176,1176,Look Down_tick left_None_sine
+1177,1177,Look Down_tick left_None_elastic
+1178,1178,Look Down_tick left_None_back
+1179,1179,Look Down_tick left_None_circ
+1180,1180,Look Down_tick left_Blink_lin
+1181,1181,Look Down_tick left_Blink_sine
+1182,1182,Look Down_tick left_Blink_elastic
+1183,1183,Look Down_tick left_Blink_back
+1184,1184,Look Down_tick left_Blink_circ
+1185,1185,Look Down_tick left_Double Blink_lin
+1186,1186,Look Down_tick left_Double Blink_sine
+1187,1187,Look Down_tick left_Double Blink_elastic
+1188,1188,Look Down_tick left_Double Blink_back
+1189,1189,Look Down_tick left_Double Blink_circ
+1190,1190,Look Down_tick left_Happy_lin
+1191,1191,Look Down_tick left_Happy_sine
+1192,1192,Look Down_tick left_Happy_elastic
+1193,1193,Look Down_tick left_Happy_back
+1194,1194,Look Down_tick left_Happy_circ
+1195,1195,Look Down_tick left_sad_lin
+1196,1196,Look Down_tick left_sad_sine
+1197,1197,Look Down_tick left_sad_elastic
+1198,1198,Look Down_tick left_sad_back
+1199,1199,Look Down_tick left_sad_circ
+1200,1200,nod_tick left_None_lin
+1201,1201,nod_tick left_None_sine
+1202,1202,nod_tick left_None_elastic
+1203,1203,nod_tick left_None_back
+1204,1204,nod_tick left_None_circ
+1205,1205,nod_tick left_Blink_lin
+1206,1206,nod_tick left_Blink_sine
+1207,1207,nod_tick left_Blink_elastic
+1208,1208,nod_tick left_Blink_back
+1209,1209,nod_tick left_Blink_circ
+1210,1210,nod_tick left_Double Blink_lin
+1211,1211,nod_tick left_Double Blink_sine
+1212,1212,nod_tick left_Double Blink_elastic
+1213,1213,nod_tick left_Double Blink_back
+1214,1214,nod_tick left_Double Blink_circ
+1215,1215,nod_tick left_Happy_lin
+1216,1216,nod_tick left_Happy_sine
+1217,1217,nod_tick left_Happy_elastic
+1218,1218,nod_tick left_Happy_back
+1219,1219,nod_tick left_Happy_circ
+1220,1220,nod_tick left_sad_lin
+1221,1221,nod_tick left_sad_sine
+1222,1222,nod_tick left_sad_elastic
+1223,1223,nod_tick left_sad_back
+1224,1224,nod_tick left_sad_circ
+1225,1225,tick up_tick left_None_lin
+1226,1226,tick up_tick left_None_sine
+1227,1227,tick up_tick left_None_elastic
+1228,1228,tick up_tick left_None_back
+1229,1229,tick up_tick left_None_circ
+1230,1230,tick up_tick left_Blink_lin
+1231,1231,tick up_tick left_Blink_sine
+1232,1232,tick up_tick left_Blink_elastic
+1233,1233,tick up_tick left_Blink_back
+1234,1234,tick up_tick left_Blink_circ
+1235,1235,tick up_tick left_Double Blink_lin
+1236,1236,tick up_tick left_Double Blink_sine
+1237,1237,tick up_tick left_Double Blink_elastic
+1238,1238,tick up_tick left_Double Blink_back
+1239,1239,tick up_tick left_Double Blink_circ
+1240,1240,tick up_tick left_Happy_lin
+1241,1241,tick up_tick left_Happy_sine
+1242,1242,tick up_tick left_Happy_elastic
+1243,1243,tick up_tick left_Happy_back
+1244,1244,tick up_tick left_Happy_circ
+1245,1245,tick up_tick left_sad_lin
+1246,1246,tick up_tick left_sad_sine
+1247,1247,tick up_tick left_sad_elastic
+1248,1248,tick up_tick left_sad_back
+1249,1249,tick up_tick left_sad_circ
+1250,1250,None_tick right_None_lin
+1251,1251,None_tick right_None_sine
+1252,1252,None_tick right_None_elastic
+1253,1253,None_tick right_None_back
+1254,1254,None_tick right_None_circ
+1255,1255,None_tick right_Blink_lin
+1256,1256,None_tick right_Blink_sine
+1257,1257,None_tick right_Blink_elastic
+1258,1258,None_tick right_Blink_back
+1259,1259,None_tick right_Blink_circ
+1260,1260,None_tick right_Double Blink_lin
+1261,1261,None_tick right_Double Blink_sine
+1262,1262,None_tick right_Double Blink_elastic
+1263,1263,None_tick right_Double Blink_back
+1264,1264,None_tick right_Double Blink_circ
+1265,1265,None_tick right_Happy_lin
+1266,1266,None_tick right_Happy_sine
+1267,1267,None_tick right_Happy_elastic
+1268,1268,None_tick right_Happy_back
+1269,1269,None_tick right_Happy_circ
+1270,1270,None_tick right_sad_lin
+1271,1271,None_tick right_sad_sine
+1272,1272,None_tick right_sad_elastic
+1273,1273,None_tick right_sad_back
+1274,1274,None_tick right_sad_circ
+1275,1275,Look up_tick right_None_lin
+1276,1276,Look up_tick right_None_sine
+1277,1277,Look up_tick right_None_elastic
+1278,1278,Look up_tick right_None_back
+1279,1279,Look up_tick right_None_circ
+1280,1280,Look up_tick right_Blink_lin
+1281,1281,Look up_tick right_Blink_sine
+1282,1282,Look up_tick right_Blink_elastic
+1283,1283,Look up_tick right_Blink_back
+1284,1284,Look up_tick right_Blink_circ
+1285,1285,Look up_tick right_Double Blink_lin
+1286,1286,Look up_tick right_Double Blink_sine
+1287,1287,Look up_tick right_Double Blink_elastic
+1288,1288,Look up_tick right_Double Blink_back
+1289,1289,Look up_tick right_Double Blink_circ
+1290,1290,Look up_tick right_Happy_lin
+1291,1291,Look up_tick right_Happy_sine
+1292,1292,Look up_tick right_Happy_elastic
+1293,1293,Look up_tick right_Happy_back
+1294,1294,Look up_tick right_Happy_circ
+1295,1295,Look up_tick right_sad_lin
+1296,1296,Look up_tick right_sad_sine
+1297,1297,Look up_tick right_sad_elastic
+1298,1298,Look up_tick right_sad_back
+1299,1299,Look up_tick right_sad_circ
+1300,1300,Look Down_tick right_None_lin
+1301,1301,Look Down_tick right_None_sine
+1302,1302,Look Down_tick right_None_elastic
+1303,1303,Look Down_tick right_None_back
+1304,1304,Look Down_tick right_None_circ
+1305,1305,Look Down_tick right_Blink_lin
+1306,1306,Look Down_tick right_Blink_sine
+1307,1307,Look Down_tick right_Blink_elastic
+1308,1308,Look Down_tick right_Blink_back
+1309,1309,Look Down_tick right_Blink_circ
+1310,1310,Look Down_tick right_Double Blink_lin
+1311,1311,Look Down_tick right_Double Blink_sine
+1312,1312,Look Down_tick right_Double Blink_elastic
+1313,1313,Look Down_tick right_Double Blink_back
+1314,1314,Look Down_tick right_Double Blink_circ
+1315,1315,Look Down_tick right_Happy_lin
+1316,1316,Look Down_tick right_Happy_sine
+1317,1317,Look Down_tick right_Happy_elastic
+1318,1318,Look Down_tick right_Happy_back
+1319,1319,Look Down_tick right_Happy_circ
+1320,1320,Look Down_tick right_sad_lin
+1321,1321,Look Down_tick right_sad_sine
+1322,1322,Look Down_tick right_sad_elastic
+1323,1323,Look Down_tick right_sad_back
+1324,1324,Look Down_tick right_sad_circ
+1325,1325,nod_tick right_None_lin
+1326,1326,nod_tick right_None_sine
+1327,1327,nod_tick right_None_elastic
+1328,1328,nod_tick right_None_back
+1329,1329,nod_tick right_None_circ
+1330,1330,nod_tick right_Blink_lin
+1331,1331,nod_tick right_Blink_sine
+1332,1332,nod_tick right_Blink_elastic
+1333,1333,nod_tick right_Blink_back
+1334,1334,nod_tick right_Blink_circ
+1335,1335,nod_tick right_Double Blink_lin
+1336,1336,nod_tick right_Double Blink_sine
+1337,1337,nod_tick right_Double Blink_elastic
+1338,1338,nod_tick right_Double Blink_back
+1339,1339,nod_tick right_Double Blink_circ
+1340,1340,nod_tick right_Happy_lin
+1341,1341,nod_tick right_Happy_sine
+1342,1342,nod_tick right_Happy_elastic
+1343,1343,nod_tick right_Happy_back
+1344,1344,nod_tick right_Happy_circ
+1345,1345,nod_tick right_sad_lin
+1346,1346,nod_tick right_sad_sine
+1347,1347,nod_tick right_sad_elastic
+1348,1348,nod_tick right_sad_back
+1349,1349,nod_tick right_sad_circ
+1350,1350,tick up_tick right_None_lin
+1351,1351,tick up_tick right_None_sine
+1352,1352,tick up_tick right_None_elastic
+1353,1353,tick up_tick right_None_back
+1354,1354,tick up_tick right_None_circ
+1355,1355,tick up_tick right_Blink_lin
+1356,1356,tick up_tick right_Blink_sine
+1357,1357,tick up_tick right_Blink_elastic
+1358,1358,tick up_tick right_Blink_back
+1359,1359,tick up_tick right_Blink_circ
+1360,1360,tick up_tick right_Double Blink_lin
+1361,1361,tick up_tick right_Double Blink_sine
+1362,1362,tick up_tick right_Double Blink_elastic
+1363,1363,tick up_tick right_Double Blink_back
+1364,1364,tick up_tick right_Double Blink_circ
+1365,1365,tick up_tick right_Happy_lin
+1366,1366,tick up_tick right_Happy_sine
+1367,1367,tick up_tick right_Happy_elastic
+1368,1368,tick up_tick right_Happy_back
+1369,1369,tick up_tick right_Happy_circ
+1370,1370,tick up_tick right_sad_lin
+1371,1371,tick up_tick right_sad_sine
+1372,1372,tick up_tick right_sad_elastic
+1373,1373,tick up_tick right_sad_back
+1374,1374,tick up_tick right_sad_circ
+1375,1375,None_pan left_None_lin
+1376,1376,None_pan left_None_sine
+1377,1377,None_pan left_None_elastic
+1378,1378,None_pan left_None_back
+1379,1379,None_pan left_None_circ
+1380,1380,None_pan left_Blink_lin
+1381,1381,None_pan left_Blink_sine
+1382,1382,None_pan left_Blink_elastic
+1383,1383,None_pan left_Blink_back
+1384,1384,None_pan left_Blink_circ
+1385,1385,None_pan left_Double Blink_lin
+1386,1386,None_pan left_Double Blink_sine
+1387,1387,None_pan left_Double Blink_elastic
+1388,1388,None_pan left_Double Blink_back
+1389,1389,None_pan left_Double Blink_circ
+1390,1390,None_pan left_Happy_lin
+1391,1391,None_pan left_Happy_sine
+1392,1392,None_pan left_Happy_elastic
+1393,1393,None_pan left_Happy_back
+1394,1394,None_pan left_Happy_circ
+1395,1395,None_pan left_sad_lin
+1396,1396,None_pan left_sad_sine
+1397,1397,None_pan left_sad_elastic
+1398,1398,None_pan left_sad_back
+1399,1399,None_pan left_sad_circ
+1400,1400,Look up_pan left_None_lin
+1401,1401,Look up_pan left_None_sine
+1402,1402,Look up_pan left_None_elastic
+1403,1403,Look up_pan left_None_back
+1404,1404,Look up_pan left_None_circ
+1405,1405,Look up_pan left_Blink_lin
+1406,1406,Look up_pan left_Blink_sine
+1407,1407,Look up_pan left_Blink_elastic
+1408,1408,Look up_pan left_Blink_back
+1409,1409,Look up_pan left_Blink_circ
+1410,1410,Look up_pan left_Double Blink_lin
+1411,1411,Look up_pan left_Double Blink_sine
+1412,1412,Look up_pan left_Double Blink_elastic
+1413,1413,Look up_pan left_Double Blink_back
+1414,1414,Look up_pan left_Double Blink_circ
+1415,1415,Look up_pan left_Happy_lin
+1416,1416,Look up_pan left_Happy_sine
+1417,1417,Look up_pan left_Happy_elastic
+1418,1418,Look up_pan left_Happy_back
+1419,1419,Look up_pan left_Happy_circ
+1420,1420,Look up_pan left_sad_lin
+1421,1421,Look up_pan left_sad_sine
+1422,1422,Look up_pan left_sad_elastic
+1423,1423,Look up_pan left_sad_back
+1424,1424,Look up_pan left_sad_circ
+1425,1425,Look Down_pan left_None_lin
+1426,1426,Look Down_pan left_None_sine
+1427,1427,Look Down_pan left_None_elastic
+1428,1428,Look Down_pan left_None_back
+1429,1429,Look Down_pan left_None_circ
+1430,1430,Look Down_pan left_Blink_lin
+1431,1431,Look Down_pan left_Blink_sine
+1432,1432,Look Down_pan left_Blink_elastic
+1433,1433,Look Down_pan left_Blink_back
+1434,1434,Look Down_pan left_Blink_circ
+1435,1435,Look Down_pan left_Double Blink_lin
+1436,1436,Look Down_pan left_Double Blink_sine
+1437,1437,Look Down_pan left_Double Blink_elastic
+1438,1438,Look Down_pan left_Double Blink_back
+1439,1439,Look Down_pan left_Double Blink_circ
+1440,1440,Look Down_pan left_Happy_lin
+1441,1441,Look Down_pan left_Happy_sine
+1442,1442,Look Down_pan left_Happy_elastic
+1443,1443,Look Down_pan left_Happy_back
+1444,1444,Look Down_pan left_Happy_circ
+1445,1445,Look Down_pan left_sad_lin
+1446,1446,Look Down_pan left_sad_sine
+1447,1447,Look Down_pan left_sad_elastic
+1448,1448,Look Down_pan left_sad_back
+1449,1449,Look Down_pan left_sad_circ
+1450,1450,nod_pan left_None_lin
+1451,1451,nod_pan left_None_sine
+1452,1452,nod_pan left_None_elastic
+1453,1453,nod_pan left_None_back
+1454,1454,nod_pan left_None_circ
+1455,1455,nod_pan left_Blink_lin
+1456,1456,nod_pan left_Blink_sine
+1457,1457,nod_pan left_Blink_elastic
+1458,1458,nod_pan left_Blink_back
+1459,1459,nod_pan left_Blink_circ
+1460,1460,nod_pan left_Double Blink_lin
+1461,1461,nod_pan left_Double Blink_sine
+1462,1462,nod_pan left_Double Blink_elastic
+1463,1463,nod_pan left_Double Blink_back
+1464,1464,nod_pan left_Double Blink_circ
+1465,1465,nod_pan left_Happy_lin
+1466,1466,nod_pan left_Happy_sine
+1467,1467,nod_pan left_Happy_elastic
+1468,1468,nod_pan left_Happy_back
+1469,1469,nod_pan left_Happy_circ
+1470,1470,nod_pan left_sad_lin
+1471,1471,nod_pan left_sad_sine
+1472,1472,nod_pan left_sad_elastic
+1473,1473,nod_pan left_sad_back
+1474,1474,nod_pan left_sad_circ
+1475,1475,tick up_pan left_None_lin
+1476,1476,tick up_pan left_None_sine
+1477,1477,tick up_pan left_None_elastic
+1478,1478,tick up_pan left_None_back
+1479,1479,tick up_pan left_None_circ
+1480,1480,tick up_pan left_Blink_lin
+1481,1481,tick up_pan left_Blink_sine
+1482,1482,tick up_pan left_Blink_elastic
+1483,1483,tick up_pan left_Blink_back
+1484,1484,tick up_pan left_Blink_circ
+1485,1485,tick up_pan left_Double Blink_lin
+1486,1486,tick up_pan left_Double Blink_sine
+1487,1487,tick up_pan left_Double Blink_elastic
+1488,1488,tick up_pan left_Double Blink_back
+1489,1489,tick up_pan left_Double Blink_circ
+1490,1490,tick up_pan left_Happy_lin
+1491,1491,tick up_pan left_Happy_sine
+1492,1492,tick up_pan left_Happy_elastic
+1493,1493,tick up_pan left_Happy_back
+1494,1494,tick up_pan left_Happy_circ
+1495,1495,tick up_pan left_sad_lin
+1496,1496,tick up_pan left_sad_sine
+1497,1497,tick up_pan left_sad_elastic
+1498,1498,tick up_pan left_sad_back
+1499,1499,tick up_pan left_sad_circ
+1500,1500,None_pan right_None_lin
+1501,1501,None_pan right_None_sine
+1502,1502,None_pan right_None_elastic
+1503,1503,None_pan right_None_back
+1504,1504,None_pan right_None_circ
+1505,1505,None_pan right_Blink_lin
+1506,1506,None_pan right_Blink_sine
+1507,1507,None_pan right_Blink_elastic
+1508,1508,None_pan right_Blink_back
+1509,1509,None_pan right_Blink_circ
+1510,1510,None_pan right_Double Blink_lin
+1511,1511,None_pan right_Double Blink_sine
+1512,1512,None_pan right_Double Blink_elastic
+1513,1513,None_pan right_Double Blink_back
+1514,1514,None_pan right_Double Blink_circ
+1515,1515,None_pan right_Happy_lin
+1516,1516,None_pan right_Happy_sine
+1517,1517,None_pan right_Happy_elastic
+1518,1518,None_pan right_Happy_back
+1519,1519,None_pan right_Happy_circ
+1520,1520,None_pan right_sad_lin
+1521,1521,None_pan right_sad_sine
+1522,1522,None_pan right_sad_elastic
+1523,1523,None_pan right_sad_back
+1524,1524,None_pan right_sad_circ
+1525,1525,Look up_pan right_None_lin
+1526,1526,Look up_pan right_None_sine
+1527,1527,Look up_pan right_None_elastic
+1528,1528,Look up_pan right_None_back
+1529,1529,Look up_pan right_None_circ
+1530,1530,Look up_pan right_Blink_lin
+1531,1531,Look up_pan right_Blink_sine
+1532,1532,Look up_pan right_Blink_elastic
+1533,1533,Look up_pan right_Blink_back
+1534,1534,Look up_pan right_Blink_circ
+1535,1535,Look up_pan right_Double Blink_lin
+1536,1536,Look up_pan right_Double Blink_sine
+1537,1537,Look up_pan right_Double Blink_elastic
+1538,1538,Look up_pan right_Double Blink_back
+1539,1539,Look up_pan right_Double Blink_circ
+1540,1540,Look up_pan right_Happy_lin
+1541,1541,Look up_pan right_Happy_sine
+1542,1542,Look up_pan right_Happy_elastic
+1543,1543,Look up_pan right_Happy_back
+1544,1544,Look up_pan right_Happy_circ
+1545,1545,Look up_pan right_sad_lin
+1546,1546,Look up_pan right_sad_sine
+1547,1547,Look up_pan right_sad_elastic
+1548,1548,Look up_pan right_sad_back
+1549,1549,Look up_pan right_sad_circ
+1550,1550,Look Down_pan right_None_lin
+1551,1551,Look Down_pan right_None_sine
+1552,1552,Look Down_pan right_None_elastic
+1553,1553,Look Down_pan right_None_back
+1554,1554,Look Down_pan right_None_circ
+1555,1555,Look Down_pan right_Blink_lin
+1556,1556,Look Down_pan right_Blink_sine
+1557,1557,Look Down_pan right_Blink_elastic
+1558,1558,Look Down_pan right_Blink_back
+1559,1559,Look Down_pan right_Blink_circ
+1560,1560,Look Down_pan right_Double Blink_lin
+1561,1561,Look Down_pan right_Double Blink_sine
+1562,1562,Look Down_pan right_Double Blink_elastic
+1563,1563,Look Down_pan right_Double Blink_back
+1564,1564,Look Down_pan right_Double Blink_circ
+1565,1565,Look Down_pan right_Happy_lin
+1566,1566,Look Down_pan right_Happy_sine
+1567,1567,Look Down_pan right_Happy_elastic
+1568,1568,Look Down_pan right_Happy_back
+1569,1569,Look Down_pan right_Happy_circ
+1570,1570,Look Down_pan right_sad_lin
+1571,1571,Look Down_pan right_sad_sine
+1572,1572,Look Down_pan right_sad_elastic
+1573,1573,Look Down_pan right_sad_back
+1574,1574,Look Down_pan right_sad_circ
+1575,1575,nod_pan right_None_lin
+1576,1576,nod_pan right_None_sine
+1577,1577,nod_pan right_None_elastic
+1578,1578,nod_pan right_None_back
+1579,1579,nod_pan right_None_circ
+1580,1580,nod_pan right_Blink_lin
+1581,1581,nod_pan right_Blink_sine
+1582,1582,nod_pan right_Blink_elastic
+1583,1583,nod_pan right_Blink_back
+1584,1584,nod_pan right_Blink_circ
+1585,1585,nod_pan right_Double Blink_lin
+1586,1586,nod_pan right_Double Blink_sine
+1587,1587,nod_pan right_Double Blink_elastic
+1588,1588,nod_pan right_Double Blink_back
+1589,1589,nod_pan right_Double Blink_circ
+1590,1590,nod_pan right_Happy_lin
+1591,1591,nod_pan right_Happy_sine
+1592,1592,nod_pan right_Happy_elastic
+1593,1593,nod_pan right_Happy_back
+1594,1594,nod_pan right_Happy_circ
+1595,1595,nod_pan right_sad_lin
+1596,1596,nod_pan right_sad_sine
+1597,1597,nod_pan right_sad_elastic
+1598,1598,nod_pan right_sad_back
+1599,1599,nod_pan right_sad_circ
+1600,1600,tick up_pan right_None_lin
+1601,1601,tick up_pan right_None_sine
+1602,1602,tick up_pan right_None_elastic
+1603,1603,tick up_pan right_None_back
+1604,1604,tick up_pan right_None_circ
+1605,1605,tick up_pan right_Blink_lin
+1606,1606,tick up_pan right_Blink_sine
+1607,1607,tick up_pan right_Blink_elastic
+1608,1608,tick up_pan right_Blink_back
+1609,1609,tick up_pan right_Blink_circ
+1610,1610,tick up_pan right_Double Blink_lin
+1611,1611,tick up_pan right_Double Blink_sine
+1612,1612,tick up_pan right_Double Blink_elastic
+1613,1613,tick up_pan right_Double Blink_back
+1614,1614,tick up_pan right_Double Blink_circ
+1615,1615,tick up_pan right_Happy_lin
+1616,1616,tick up_pan right_Happy_sine
+1617,1617,tick up_pan right_Happy_elastic
+1618,1618,tick up_pan right_Happy_back
+1619,1619,tick up_pan right_Happy_circ
+1620,1620,tick up_pan right_sad_lin
+1621,1621,tick up_pan right_sad_sine
+1622,1622,tick up_pan right_sad_elastic
+1623,1623,tick up_pan right_sad_back
+1624,1624,tick up_pan right_sad_circ
+1625,1625,None_tick left snap right_None_lin
+1626,1626,None_tick left snap right_None_sine
+1627,1627,None_tick left snap right_None_elastic
+1628,1628,None_tick left snap right_None_back
+1629,1629,None_tick left snap right_None_circ
+1630,1630,None_tick left snap right_Blink_lin
+1631,1631,None_tick left snap right_Blink_sine
+1632,1632,None_tick left snap right_Blink_elastic
+1633,1633,None_tick left snap right_Blink_back
+1634,1634,None_tick left snap right_Blink_circ
+1635,1635,None_tick left snap right_Double Blink_lin
+1636,1636,None_tick left snap right_Double Blink_sine
+1637,1637,None_tick left snap right_Double Blink_elastic
+1638,1638,None_tick left snap right_Double Blink_back
+1639,1639,None_tick left snap right_Double Blink_circ
+1640,1640,None_tick left snap right_Happy_lin
+1641,1641,None_tick left snap right_Happy_sine
+1642,1642,None_tick left snap right_Happy_elastic
+1643,1643,None_tick left snap right_Happy_back
+1644,1644,None_tick left snap right_Happy_circ
+1645,1645,None_tick left snap right_sad_lin
+1646,1646,None_tick left snap right_sad_sine
+1647,1647,None_tick left snap right_sad_elastic
+1648,1648,None_tick left snap right_sad_back
+1649,1649,None_tick left snap right_sad_circ
+1650,1650,Look up_tick left snap right_None_lin
+1651,1651,Look up_tick left snap right_None_sine
+1652,1652,Look up_tick left snap right_None_elastic
+1653,1653,Look up_tick left snap right_None_back
+1654,1654,Look up_tick left snap right_None_circ
+1655,1655,Look up_tick left snap right_Blink_lin
+1656,1656,Look up_tick left snap right_Blink_sine
+1657,1657,Look up_tick left snap right_Blink_elastic
+1658,1658,Look up_tick left snap right_Blink_back
+1659,1659,Look up_tick left snap right_Blink_circ
+1660,1660,Look up_tick left snap right_Double Blink_lin
+1661,1661,Look up_tick left snap right_Double Blink_sine
+1662,1662,Look up_tick left snap right_Double Blink_elastic
+1663,1663,Look up_tick left snap right_Double Blink_back
+1664,1664,Look up_tick left snap right_Double Blink_circ
+1665,1665,Look up_tick left snap right_Happy_lin
+1666,1666,Look up_tick left snap right_Happy_sine
+1667,1667,Look up_tick left snap right_Happy_elastic
+1668,1668,Look up_tick left snap right_Happy_back
+1669,1669,Look up_tick left snap right_Happy_circ
+1670,1670,Look up_tick left snap right_sad_lin
+1671,1671,Look up_tick left snap right_sad_sine
+1672,1672,Look up_tick left snap right_sad_elastic
+1673,1673,Look up_tick left snap right_sad_back
+1674,1674,Look up_tick left snap right_sad_circ
+1675,1675,Look Down_tick left snap right_None_lin
+1676,1676,Look Down_tick left snap right_None_sine
+1677,1677,Look Down_tick left snap right_None_elastic
+1678,1678,Look Down_tick left snap right_None_back
+1679,1679,Look Down_tick left snap right_None_circ
+1680,1680,Look Down_tick left snap right_Blink_lin
+1681,1681,Look Down_tick left snap right_Blink_sine
+1682,1682,Look Down_tick left snap right_Blink_elastic
+1683,1683,Look Down_tick left snap right_Blink_back
+1684,1684,Look Down_tick left snap right_Blink_circ
+1685,1685,Look Down_tick left snap right_Double Blink_lin
+1686,1686,Look Down_tick left snap right_Double Blink_sine
+1687,1687,Look Down_tick left snap right_Double Blink_elastic
+1688,1688,Look Down_tick left snap right_Double Blink_back
+1689,1689,Look Down_tick left snap right_Double Blink_circ
+1690,1690,Look Down_tick left snap right_Happy_lin
+1691,1691,Look Down_tick left snap right_Happy_sine
+1692,1692,Look Down_tick left snap right_Happy_elastic
+1693,1693,Look Down_tick left snap right_Happy_back
+1694,1694,Look Down_tick left snap right_Happy_circ
+1695,1695,Look Down_tick left snap right_sad_lin
+1696,1696,Look Down_tick left snap right_sad_sine
+1697,1697,Look Down_tick left snap right_sad_elastic
+1698,1698,Look Down_tick left snap right_sad_back
+1699,1699,Look Down_tick left snap right_sad_circ
+1700,1700,nod_tick left snap right_None_lin
+1701,1701,nod_tick left snap right_None_sine
+1702,1702,nod_tick left snap right_None_elastic
+1703,1703,nod_tick left snap right_None_back
+1704,1704,nod_tick left snap right_None_circ
+1705,1705,nod_tick left snap right_Blink_lin
+1706,1706,nod_tick left snap right_Blink_sine
+1707,1707,nod_tick left snap right_Blink_elastic
+1708,1708,nod_tick left snap right_Blink_back
+1709,1709,nod_tick left snap right_Blink_circ
+1710,1710,nod_tick left snap right_Double Blink_lin
+1711,1711,nod_tick left snap right_Double Blink_sine
+1712,1712,nod_tick left snap right_Double Blink_elastic
+1713,1713,nod_tick left snap right_Double Blink_back
+1714,1714,nod_tick left snap right_Double Blink_circ
+1715,1715,nod_tick left snap right_Happy_lin
+1716,1716,nod_tick left snap right_Happy_sine
+1717,1717,nod_tick left snap right_Happy_elastic
+1718,1718,nod_tick left snap right_Happy_back
+1719,1719,nod_tick left snap right_Happy_circ
+1720,1720,nod_tick left snap right_sad_lin
+1721,1721,nod_tick left snap right_sad_sine
+1722,1722,nod_tick left snap right_sad_elastic
+1723,1723,nod_tick left snap right_sad_back
+1724,1724,nod_tick left snap right_sad_circ
+1725,1725,tick up_tick left snap right_None_lin
+1726,1726,tick up_tick left snap right_None_sine
+1727,1727,tick up_tick left snap right_None_elastic
+1728,1728,tick up_tick left snap right_None_back
+1729,1729,tick up_tick left snap right_None_circ
+1730,1730,tick up_tick left snap right_Blink_lin
+1731,1731,tick up_tick left snap right_Blink_sine
+1732,1732,tick up_tick left snap right_Blink_elastic
+1733,1733,tick up_tick left snap right_Blink_back
+1734,1734,tick up_tick left snap right_Blink_circ
+1735,1735,tick up_tick left snap right_Double Blink_lin
+1736,1736,tick up_tick left snap right_Double Blink_sine
+1737,1737,tick up_tick left snap right_Double Blink_elastic
+1738,1738,tick up_tick left snap right_Double Blink_back
+1739,1739,tick up_tick left snap right_Double Blink_circ
+1740,1740,tick up_tick left snap right_Happy_lin
+1741,1741,tick up_tick left snap right_Happy_sine
+1742,1742,tick up_tick left snap right_Happy_elastic
+1743,1743,tick up_tick left snap right_Happy_back
+1744,1744,tick up_tick left snap right_Happy_circ
+1745,1745,tick up_tick left snap right_sad_lin
+1746,1746,tick up_tick left snap right_sad_sine
+1747,1747,tick up_tick left snap right_sad_elastic
+1748,1748,tick up_tick left snap right_sad_back
+1749,1749,tick up_tick left snap right_sad_circ
+1750,1750,None_tick right snap left_None_lin
+1751,1751,None_tick right snap left_None_sine
+1752,1752,None_tick right snap left_None_elastic
+1753,1753,None_tick right snap left_None_back
+1754,1754,None_tick right snap left_None_circ
+1755,1755,None_tick right snap left_Blink_lin
+1756,1756,None_tick right snap left_Blink_sine
+1757,1757,None_tick right snap left_Blink_elastic
+1758,1758,None_tick right snap left_Blink_back
+1759,1759,None_tick right snap left_Blink_circ
+1760,1760,None_tick right snap left_Double Blink_lin
+1761,1761,None_tick right snap left_Double Blink_sine
+1762,1762,None_tick right snap left_Double Blink_elastic
+1763,1763,None_tick right snap left_Double Blink_back
+1764,1764,None_tick right snap left_Double Blink_circ
+1765,1765,None_tick right snap left_Happy_lin
+1766,1766,None_tick right snap left_Happy_sine
+1767,1767,None_tick right snap left_Happy_elastic
+1768,1768,None_tick right snap left_Happy_back
+1769,1769,None_tick right snap left_Happy_circ
+1770,1770,None_tick right snap left_sad_lin
+1771,1771,None_tick right snap left_sad_sine
+1772,1772,None_tick right snap left_sad_elastic
+1773,1773,None_tick right snap left_sad_back
+1774,1774,None_tick right snap left_sad_circ
+1775,1775,Look up_tick right snap left_None_lin
+1776,1776,Look up_tick right snap left_None_sine
+1777,1777,Look up_tick right snap left_None_elastic
+1778,1778,Look up_tick right snap left_None_back
+1779,1779,Look up_tick right snap left_None_circ
+1780,1780,Look up_tick right snap left_Blink_lin
+1781,1781,Look up_tick right snap left_Blink_sine
+1782,1782,Look up_tick right snap left_Blink_elastic
+1783,1783,Look up_tick right snap left_Blink_back
+1784,1784,Look up_tick right snap left_Blink_circ
+1785,1785,Look up_tick right snap left_Double Blink_lin
+1786,1786,Look up_tick right snap left_Double Blink_sine
+1787,1787,Look up_tick right snap left_Double Blink_elastic
+1788,1788,Look up_tick right snap left_Double Blink_back
+1789,1789,Look up_tick right snap left_Double Blink_circ
+1790,1790,Look up_tick right snap left_Happy_lin
+1791,1791,Look up_tick right snap left_Happy_sine
+1792,1792,Look up_tick right snap left_Happy_elastic
+1793,1793,Look up_tick right snap left_Happy_back
+1794,1794,Look up_tick right snap left_Happy_circ
+1795,1795,Look up_tick right snap left_sad_lin
+1796,1796,Look up_tick right snap left_sad_sine
+1797,1797,Look up_tick right snap left_sad_elastic
+1798,1798,Look up_tick right snap left_sad_back
+1799,1799,Look up_tick right snap left_sad_circ
+1800,1800,Look Down_tick right snap left_None_lin
+1801,1801,Look Down_tick right snap left_None_sine
+1802,1802,Look Down_tick right snap left_None_elastic
+1803,1803,Look Down_tick right snap left_None_back
+1804,1804,Look Down_tick right snap left_None_circ
+1805,1805,Look Down_tick right snap left_Blink_lin
+1806,1806,Look Down_tick right snap left_Blink_sine
+1807,1807,Look Down_tick right snap left_Blink_elastic
+1808,1808,Look Down_tick right snap left_Blink_back
+1809,1809,Look Down_tick right snap left_Blink_circ
+1810,1810,Look Down_tick right snap left_Double Blink_lin
+1811,1811,Look Down_tick right snap left_Double Blink_sine
+1812,1812,Look Down_tick right snap left_Double Blink_elastic
+1813,1813,Look Down_tick right snap left_Double Blink_back
+1814,1814,Look Down_tick right snap left_Double Blink_circ
+1815,1815,Look Down_tick right snap left_Happy_lin
+1816,1816,Look Down_tick right snap left_Happy_sine
+1817,1817,Look Down_tick right snap left_Happy_elastic
+1818,1818,Look Down_tick right snap left_Happy_back
+1819,1819,Look Down_tick right snap left_Happy_circ
+1820,1820,Look Down_tick right snap left_sad_lin
+1821,1821,Look Down_tick right snap left_sad_sine
+1822,1822,Look Down_tick right snap left_sad_elastic
+1823,1823,Look Down_tick right snap left_sad_back
+1824,1824,Look Down_tick right snap left_sad_circ
+1825,1825,nod_tick right snap left_None_lin
+1826,1826,nod_tick right snap left_None_sine
+1827,1827,nod_tick right snap left_None_elastic
+1828,1828,nod_tick right snap left_None_back
+1829,1829,nod_tick right snap left_None_circ
+1830,1830,nod_tick right snap left_Blink_lin
+1831,1831,nod_tick right snap left_Blink_sine
+1832,1832,nod_tick right snap left_Blink_elastic
+1833,1833,nod_tick right snap left_Blink_back
+1834,1834,nod_tick right snap left_Blink_circ
+1835,1835,nod_tick right snap left_Double Blink_lin
+1836,1836,nod_tick right snap left_Double Blink_sine
+1837,1837,nod_tick right snap left_Double Blink_elastic
+1838,1838,nod_tick right snap left_Double Blink_back
+1839,1839,nod_tick right snap left_Double Blink_circ
+1840,1840,nod_tick right snap left_Happy_lin
+1841,1841,nod_tick right snap left_Happy_sine
+1842,1842,nod_tick right snap left_Happy_elastic
+1843,1843,nod_tick right snap left_Happy_back
+1844,1844,nod_tick right snap left_Happy_circ
+1845,1845,nod_tick right snap left_sad_lin
+1846,1846,nod_tick right snap left_sad_sine
+1847,1847,nod_tick right snap left_sad_elastic
+1848,1848,nod_tick right snap left_sad_back
+1849,1849,nod_tick right snap left_sad_circ
+1850,1850,tick up_tick right snap left_None_lin
+1851,1851,tick up_tick right snap left_None_sine
+1852,1852,tick up_tick right snap left_None_elastic
+1853,1853,tick up_tick right snap left_None_back
+1854,1854,tick up_tick right snap left_None_circ
+1855,1855,tick up_tick right snap left_Blink_lin
+1856,1856,tick up_tick right snap left_Blink_sine
+1857,1857,tick up_tick right snap left_Blink_elastic
+1858,1858,tick up_tick right snap left_Blink_back
+1859,1859,tick up_tick right snap left_Blink_circ
+1860,1860,tick up_tick right snap left_Double Blink_lin
+1861,1861,tick up_tick right snap left_Double Blink_sine
+1862,1862,tick up_tick right snap left_Double Blink_elastic
+1863,1863,tick up_tick right snap left_Double Blink_back
+1864,1864,tick up_tick right snap left_Double Blink_circ
+1865,1865,tick up_tick right snap left_Happy_lin
+1866,1866,tick up_tick right snap left_Happy_sine
+1867,1867,tick up_tick right snap left_Happy_elastic
+1868,1868,tick up_tick right snap left_Happy_back
+1869,1869,tick up_tick right snap left_Happy_circ
+1870,1870,tick up_tick right snap left_sad_lin
+1871,1871,tick up_tick right snap left_sad_sine
+1872,1872,tick up_tick right snap left_sad_elastic
+1873,1873,tick up_tick right snap left_sad_back
+1874,1874,tick up_tick right snap left_sad_circ
+1875,1875,None_look left look right_None_lin
+1876,1876,None_look left look right_None_sine
+1877,1877,None_look left look right_None_elastic
+1878,1878,None_look left look right_None_back
+1879,1879,None_look left look right_None_circ
+1880,1880,None_look left look right_Blink_lin
+1881,1881,None_look left look right_Blink_sine
+1882,1882,None_look left look right_Blink_elastic
+1883,1883,None_look left look right_Blink_back
+1884,1884,None_look left look right_Blink_circ
+1885,1885,None_look left look right_Double Blink_lin
+1886,1886,None_look left look right_Double Blink_sine
+1887,1887,None_look left look right_Double Blink_elastic
+1888,1888,None_look left look right_Double Blink_back
+1889,1889,None_look left look right_Double Blink_circ
+1890,1890,None_look left look right_Happy_lin
+1891,1891,None_look left look right_Happy_sine
+1892,1892,None_look left look right_Happy_elastic
+1893,1893,None_look left look right_Happy_back
+1894,1894,None_look left look right_Happy_circ
+1895,1895,None_look left look right_sad_lin
+1896,1896,None_look left look right_sad_sine
+1897,1897,None_look left look right_sad_elastic
+1898,1898,None_look left look right_sad_back
+1899,1899,None_look left look right_sad_circ
+1900,1900,Look up_look left look right_None_lin
+1901,1901,Look up_look left look right_None_sine
+1902,1902,Look up_look left look right_None_elastic
+1903,1903,Look up_look left look right_None_back
+1904,1904,Look up_look left look right_None_circ
+1905,1905,Look up_look left look right_Blink_lin
+1906,1906,Look up_look left look right_Blink_sine
+1907,1907,Look up_look left look right_Blink_elastic
+1908,1908,Look up_look left look right_Blink_back
+1909,1909,Look up_look left look right_Blink_circ
+1910,1910,Look up_look left look right_Double Blink_lin
+1911,1911,Look up_look left look right_Double Blink_sine
+1912,1912,Look up_look left look right_Double Blink_elastic
+1913,1913,Look up_look left look right_Double Blink_back
+1914,1914,Look up_look left look right_Double Blink_circ
+1915,1915,Look up_look left look right_Happy_lin
+1916,1916,Look up_look left look right_Happy_sine
+1917,1917,Look up_look left look right_Happy_elastic
+1918,1918,Look up_look left look right_Happy_back
+1919,1919,Look up_look left look right_Happy_circ
+1920,1920,Look up_look left look right_sad_lin
+1921,1921,Look up_look left look right_sad_sine
+1922,1922,Look up_look left look right_sad_elastic
+1923,1923,Look up_look left look right_sad_back
+1924,1924,Look up_look left look right_sad_circ
+1925,1925,Look Down_look left look right_None_lin
+1926,1926,Look Down_look left look right_None_sine
+1927,1927,Look Down_look left look right_None_elastic
+1928,1928,Look Down_look left look right_None_back
+1929,1929,Look Down_look left look right_None_circ
+1930,1930,Look Down_look left look right_Blink_lin
+1931,1931,Look Down_look left look right_Blink_sine
+1932,1932,Look Down_look left look right_Blink_elastic
+1933,1933,Look Down_look left look right_Blink_back
+1934,1934,Look Down_look left look right_Blink_circ
+1935,1935,Look Down_look left look right_Double Blink_lin
+1936,1936,Look Down_look left look right_Double Blink_sine
+1937,1937,Look Down_look left look right_Double Blink_elastic
+1938,1938,Look Down_look left look right_Double Blink_back
+1939,1939,Look Down_look left look right_Double Blink_circ
+1940,1940,Look Down_look left look right_Happy_lin
+1941,1941,Look Down_look left look right_Happy_sine
+1942,1942,Look Down_look left look right_Happy_elastic
+1943,1943,Look Down_look left look right_Happy_back
+1944,1944,Look Down_look left look right_Happy_circ
+1945,1945,Look Down_look left look right_sad_lin
+1946,1946,Look Down_look left look right_sad_sine
+1947,1947,Look Down_look left look right_sad_elastic
+1948,1948,Look Down_look left look right_sad_back
+1949,1949,Look Down_look left look right_sad_circ
+1950,1950,nod_look left look right_None_lin
+1951,1951,nod_look left look right_None_sine
+1952,1952,nod_look left look right_None_elastic
+1953,1953,nod_look left look right_None_back
+1954,1954,nod_look left look right_None_circ
+1955,1955,nod_look left look right_Blink_lin
+1956,1956,nod_look left look right_Blink_sine
+1957,1957,nod_look left look right_Blink_elastic
+1958,1958,nod_look left look right_Blink_back
+1959,1959,nod_look left look right_Blink_circ
+1960,1960,nod_look left look right_Double Blink_lin
+1961,1961,nod_look left look right_Double Blink_sine
+1962,1962,nod_look left look right_Double Blink_elastic
+1963,1963,nod_look left look right_Double Blink_back
+1964,1964,nod_look left look right_Double Blink_circ
+1965,1965,nod_look left look right_Happy_lin
+1966,1966,nod_look left look right_Happy_sine
+1967,1967,nod_look left look right_Happy_elastic
+1968,1968,nod_look left look right_Happy_back
+1969,1969,nod_look left look right_Happy_circ
+1970,1970,nod_look left look right_sad_lin
+1971,1971,nod_look left look right_sad_sine
+1972,1972,nod_look left look right_sad_elastic
+1973,1973,nod_look left look right_sad_back
+1974,1974,nod_look left look right_sad_circ
+1975,1975,tick up_look left look right_None_lin
+1976,1976,tick up_look left look right_None_sine
+1977,1977,tick up_look left look right_None_elastic
+1978,1978,tick up_look left look right_None_back
+1979,1979,tick up_look left look right_None_circ
+1980,1980,tick up_look left look right_Blink_lin
+1981,1981,tick up_look left look right_Blink_sine
+1982,1982,tick up_look left look right_Blink_elastic
+1983,1983,tick up_look left look right_Blink_back
+1984,1984,tick up_look left look right_Blink_circ
+1985,1985,tick up_look left look right_Double Blink_lin
+1986,1986,tick up_look left look right_Double Blink_sine
+1987,1987,tick up_look left look right_Double Blink_elastic
+1988,1988,tick up_look left look right_Double Blink_back
+1989,1989,tick up_look left look right_Double Blink_circ
+1990,1990,tick up_look left look right_Happy_lin
+1991,1991,tick up_look left look right_Happy_sine
+1992,1992,tick up_look left look right_Happy_elastic
+1993,1993,tick up_look left look right_Happy_back
+1994,1994,tick up_look left look right_Happy_circ
+1995,1995,tick up_look left look right_sad_lin
+1996,1996,tick up_look left look right_sad_sine
+1997,1997,tick up_look left look right_sad_elastic
+1998,1998,tick up_look left look right_sad_back
+1999,1999,tick up_look left look right_sad_circ
+2000,2000,None_None_None_lin
+2001,2001,None_None_None_sine
+2002,2002,None_None_None_elastic
+2003,2003,None_None_None_back
+2004,2004,None_None_None_circ
+2005,2005,None_None_Blink_lin
+2006,2006,None_None_Blink_sine
+2007,2007,None_None_Blink_elastic
+2008,2008,None_None_Blink_back
+2009,2009,None_None_Blink_circ
+2010,2010,None_None_Double Blink_lin
+2011,2011,None_None_Double Blink_sine
+2012,2012,None_None_Double Blink_elastic
+2013,2013,None_None_Double Blink_back
+2014,2014,None_None_Double Blink_circ
+2015,2015,None_None_Happy_lin
+2016,2016,None_None_Happy_sine
+2017,2017,None_None_Happy_elastic
+2018,2018,None_None_Happy_back
+2019,2019,None_None_Happy_circ
+2020,2020,None_None_sad_lin
+2021,2021,None_None_sad_sine
+2022,2022,None_None_sad_elastic
+2023,2023,None_None_sad_back
+2024,2024,None_None_sad_circ
+2025,2025,Look up_None_None_lin
+2026,2026,Look up_None_None_sine
+2027,2027,Look up_None_None_elastic
+2028,2028,Look up_None_None_back
+2029,2029,Look up_None_None_circ
+2030,2030,Look up_None_Blink_lin
+2031,2031,Look up_None_Blink_sine
+2032,2032,Look up_None_Blink_elastic
+2033,2033,Look up_None_Blink_back
+2034,2034,Look up_None_Blink_circ
+2035,2035,Look up_None_Double Blink_lin
+2036,2036,Look up_None_Double Blink_sine
+2037,2037,Look up_None_Double Blink_elastic
+2038,2038,Look up_None_Double Blink_back
+2039,2039,Look up_None_Double Blink_circ
+2040,2040,Look up_None_Happy_lin
+2041,2041,Look up_None_Happy_sine
+2042,2042,Look up_None_Happy_elastic
+2043,2043,Look up_None_Happy_back
+2044,2044,Look up_None_Happy_circ
+2045,2045,Look up_None_sad_lin
+2046,2046,Look up_None_sad_sine
+2047,2047,Look up_None_sad_elastic
+2048,2048,Look up_None_sad_back
+2049,2049,Look up_None_sad_circ
+2050,2050,Look Down_None_None_lin
+2051,2051,Look Down_None_None_sine
+2052,2052,Look Down_None_None_elastic
+2053,2053,Look Down_None_None_back
+2054,2054,Look Down_None_None_circ
+2055,2055,Look Down_None_Blink_lin
+2056,2056,Look Down_None_Blink_sine
+2057,2057,Look Down_None_Blink_elastic
+2058,2058,Look Down_None_Blink_back
+2059,2059,Look Down_None_Blink_circ
+2060,2060,Look Down_None_Double Blink_lin
+2061,2061,Look Down_None_Double Blink_sine
+2062,2062,Look Down_None_Double Blink_elastic
+2063,2063,Look Down_None_Double Blink_back
+2064,2064,Look Down_None_Double Blink_circ
+2065,2065,Look Down_None_Happy_lin
+2066,2066,Look Down_None_Happy_sine
+2067,2067,Look Down_None_Happy_elastic
+2068,2068,Look Down_None_Happy_back
+2069,2069,Look Down_None_Happy_circ
+2070,2070,Look Down_None_sad_lin
+2071,2071,Look Down_None_sad_sine
+2072,2072,Look Down_None_sad_elastic
+2073,2073,Look Down_None_sad_back
+2074,2074,Look Down_None_sad_circ
+2075,2075,nod_None_None_lin
+2076,2076,nod_None_None_sine
+2077,2077,nod_None_None_elastic
+2078,2078,nod_None_None_back
+2079,2079,nod_None_None_circ
+2080,2080,nod_None_Blink_lin
+2081,2081,nod_None_Blink_sine
+2082,2082,nod_None_Blink_elastic
+2083,2083,nod_None_Blink_back
+2084,2084,nod_None_Blink_circ
+2085,2085,nod_None_Double Blink_lin
+2086,2086,nod_None_Double Blink_sine
+2087,2087,nod_None_Double Blink_elastic
+2088,2088,nod_None_Double Blink_back
+2089,2089,nod_None_Double Blink_circ
+2090,2090,nod_None_Happy_lin
+2091,2091,nod_None_Happy_sine
+2092,2092,nod_None_Happy_elastic
+2093,2093,nod_None_Happy_back
+2094,2094,nod_None_Happy_circ
+2095,2095,nod_None_sad_lin
+2096,2096,nod_None_sad_sine
+2097,2097,nod_None_sad_elastic
+2098,2098,nod_None_sad_back
+2099,2099,nod_None_sad_circ
+2100,2100,tick up_None_None_lin
+2101,2101,tick up_None_None_sine
+2102,2102,tick up_None_None_elastic
+2103,2103,tick up_None_None_back
+2104,2104,tick up_None_None_circ
+2105,2105,tick up_None_Blink_lin
+2106,2106,tick up_None_Blink_sine
+2107,2107,tick up_None_Blink_elastic
+2108,2108,tick up_None_Blink_back
+2109,2109,tick up_None_Blink_circ
+2110,2110,tick up_None_Double Blink_lin
+2111,2111,tick up_None_Double Blink_sine
+2112,2112,tick up_None_Double Blink_elastic
+2113,2113,tick up_None_Double Blink_back
+2114,2114,tick up_None_Double Blink_circ
+2115,2115,tick up_None_Happy_lin
+2116,2116,tick up_None_Happy_sine
+2117,2117,tick up_None_Happy_elastic
+2118,2118,tick up_None_Happy_back
+2119,2119,tick up_None_Happy_circ
+2120,2120,tick up_None_sad_lin
+2121,2121,tick up_None_sad_sine
+2122,2122,tick up_None_sad_elastic
+2123,2123,tick up_None_sad_back
+2124,2124,tick up_None_sad_circ
