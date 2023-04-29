@@ -1,11 +1,11 @@
-[submodule "personalization/src/preference-learning-from-selection"]
+[submodule "preference-learning-from-selection"]
 	path = personalization/src/preference-learning-from-selection
-	url = git://github.com/ndennler/preference-learning-from-selection.git
+	url = git@github.com:ndennler/preference-learning-from-selection.git
 
-[submodule "stimuli/auditory/sound-effect-library"]
+[submodule "sound-effect-library"]
 	path = stimuli/auditory/sound-effect-library
-	url = git://github.com/ndennler/sound-effect-library.git
+	url = git@github.com:ndennler/sound-effect-library.git
 
-[submodule "stimuli/visual/mp4_autoencoder"]
+[submodule "mp4_autoencoder"]
 	path = stimuli/visual/mp4_autoencoder
-	url = git://github.com/Dzeng401/mp4_autoencoder.git
+	url = git@github.com:Dzeng401/mp4_autoencoder.git
