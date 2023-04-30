@@ -70,11 +70,36 @@ function chooseOption(event){
     clearTimeout(clickTimeout);
     clickCount = 0;
 
-    var id = event.target.id
-    if(id.includes('NA') || id.includes('No')) selectButton(event)
+    var type; const id = event.target.id
+    stimulus_types.forEach(stimulus_type => {
+        if(id.includes(stimulus_type)){
+            type = stimulus_type
+        }
+    })
     
+    selectButton(event)
+    if(id.includes('No')) return
+    
+    //determine the index that the person chose
+    let choice = 0
+    if(id.includes('NA')){
+        choice = 3
+    } else {
+        choice = parseInt(id.slice(-1) - 1)
+    }
+
+    //send the choice
+    if (type == 'Video'){
+        visualChoicePub.publish({data: choice})
+    } else if (type == 'Audio') {
+        auditoryChoicePub.publish({data: choice})
+    } else if (type == 'Movement'){
+        kinestheticChoicePub.publish({data: choice})
+    }
+
     // Double click action
-    console.log("Button double clicked");
+    console.log("Button double clicked", choice);
+
 }
 
 function selectButton(event){
