@@ -1,4 +1,5 @@
 var stimulus_types = ['Video', 'Audio', 'Movement']
+var vis_id, aud_id, kin_id;
 var clickCount = 0;
 var clickTimeout;
 
@@ -79,7 +80,7 @@ function chooseOption(event){
     
     selectButton(event)
     if(id.includes('No')) return
-    
+
     //determine the index that the person chose
     let choice = 0
     if(id.includes('NA')){
@@ -111,6 +112,14 @@ function selectButton(event){
         }
     })
 
+    //store selection TODO: actually do this
+    if (type == 'Video'){
+        vis_id = 0
+    } else if (type == 'Audio') {
+        aud_id = 0
+    } else if (type == 'Movement'){
+        kin_id = 0
+    }
     const buttonGroup = document.querySelectorAll(`[id*="${type}"]`);
 
     // Iterate over the buttons and remove the active class
@@ -144,6 +153,7 @@ function confirmAction(actionConfirmed) {
     if (actionConfirmed) {
         // User clicked "Yes"
         // Do something here, like submit a form or navigate to a new page
+        signalDonePub.publish({data: ''+vis_id+','+aud_id+','+kin_id})
     } else {
         // User clicked "No"
         // Do nothing or provide feedback to the user

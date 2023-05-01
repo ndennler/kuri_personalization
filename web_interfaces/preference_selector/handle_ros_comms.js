@@ -34,6 +34,12 @@ var ros = new ROSLIB.Ros({
     messageType : 'std_msgs/Int8'
   });
 
+  var signalDonePub = new ROSLIB.Topic({
+    ros : ros,
+    name : '/signal_done',
+    messageType : 'std_msgs/String'
+  });
+
 // setup subscribers
 
 var visualQueryReceiver = new ROSLIB.Topic({
