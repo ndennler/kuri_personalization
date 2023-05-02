@@ -1,4 +1,5 @@
 var stimulus_types = ['Video', 'Audio', 'Movement']
+var vis_id, aud_id, kin_id;
 var clickCount = 0;
 var clickTimeout;
 
@@ -70,11 +71,36 @@ function chooseOption(event){
     clearTimeout(clickTimeout);
     clickCount = 0;
 
-    var id = event.target.id
-    if(id.includes('NA') || id.includes('No')) selectButton(event)
+    var type; const id = event.target.id
+    stimulus_types.forEach(stimulus_type => {
+        if(id.includes(stimulus_type)){
+            type = stimulus_type
+        }
+    })
     
+    selectButton(event)
+    if(id.includes('No')) return
+
+    //determine the index that the person chose
+    let choice = 0
+    if(id.includes('NA')){
+        choice = 3
+    } else {
+        choice = parseInt(id.slice(-1) - 1)
+    }
+
+    //send the choice
+    if (type == 'Video'){
+        visualChoicePub.publish({data: choice})
+    } else if (type == 'Audio') {
+        auditoryChoicePub.publish({data: choice})
+    } else if (type == 'Movement'){
+        kinestheticChoicePub.publish({data: choice})
+    }
+
     // Double click action
-    console.log("Button double clicked");
+    console.log("Button double clicked", choice);
+
 }
 
 function selectButton(event){
@@ -86,6 +112,17 @@ function selectButton(event){
         }
     })
 
+    //store selection TODO: actually do this
+    if (type == 'Video'){
+        vis_id = 0
+        visualStimPub.publish({data: vis_id})
+    } else if (type == 'Audio') {
+        aud_id = 0
+        auditoryStimPub.publish({data: aud_id})
+    } else if (type == 'Movement'){
+        kin_id = 0
+        kinestheticStimPub.publish({data: kin_id})
+    }
     const buttonGroup = document.querySelectorAll(`[id*="${type}"]`);
 
     // Iterate over the buttons and remove the active class
@@ -97,6 +134,8 @@ function selectButton(event){
             button.classList.add("active")
         } 
     });
+
+    playSignalPub.publish({data: type})
 }
 
 //what to do if the button is single clicked
@@ -119,6 +158,7 @@ function confirmAction(actionConfirmed) {
     if (actionConfirmed) {
         // User clicked "Yes"
         // Do something here, like submit a form or navigate to a new page
+        signalDonePub.publish({data: ''+vis_id+','+aud_id+','+kin_id})
     } else {
         // User clicked "No"
         // Do nothing or provide feedback to the user
