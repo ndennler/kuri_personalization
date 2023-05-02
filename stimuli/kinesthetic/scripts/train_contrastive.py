@@ -173,7 +173,7 @@ data_loader = DataLoader(animation_data, batch_size=256, num_workers=2)
 
 def train_contrastive_model(trial):
 
-    dims = trial.suggest_int('dims', 4, 8)
+    dims = 32
     lr = trial.suggest_float('lr',1e-4, 1e-1, log=True)
     temp = trial.suggest_float('temp', .1, 10)
     weight_decay = trial.suggest_float('decay', .1, .9)
