@@ -65,7 +65,7 @@ for pan,pname in zip(pans,pnames):
     for tilt,tname in zip(tilts, tnames):
         tilt= add_neutrals(tilt, 1)
 
-        for eye, ename in zip(eyes,enames):
+        for eye, ename in zip(eyes, enames):
             eye = add_neutrals(eye, 2)
 
             for method, mname in zip([linear, easeInOutSine, easeInOutElastic, easeInOutBack, easeInOutCirc], ['lin', 'sine','elastic','back','circ']):

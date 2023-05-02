@@ -15,6 +15,30 @@ var ros = new ROSLIB.Ros({
   });
 
   //setup publishers
+  var visualStimPub = new ROSLIB.Topic({
+    ros : ros,
+    name : '/set_visual_stimulus',
+    messageType : 'std_msgs/Int8'
+  });
+
+  var auditoryStimPub = new ROSLIB.Topic({
+    ros : ros,
+    name : '/set_auditory_stimulus',
+    messageType : 'std_msgs/Int8'
+  });
+
+  var kinestheticStimPub = new ROSLIB.Topic({
+    ros : ros,
+    name : '/set_kinesthetic_stimulus',
+    messageType : 'std_msgs/Int8'
+  });
+
+  var playSignalPub = new ROSLIB.Topic({
+    ros : ros,
+    name : '/play_signal',
+    messageType : 'std_msgs/String'
+  });
+
 
   var visualChoicePub = new ROSLIB.Topic({
     ros : ros,

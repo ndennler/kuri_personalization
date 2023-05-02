@@ -115,10 +115,13 @@ function selectButton(event){
     //store selection TODO: actually do this
     if (type == 'Video'){
         vis_id = 0
+        visualStimPub.publish({data: vis_id})
     } else if (type == 'Audio') {
         aud_id = 0
+        auditoryStimPub.publish({data: aud_id})
     } else if (type == 'Movement'){
         kin_id = 0
+        kinestheticStimPub.publish({data: kin_id})
     }
     const buttonGroup = document.querySelectorAll(`[id*="${type}"]`);
 
@@ -131,6 +134,8 @@ function selectButton(event){
             button.classList.add("active")
         } 
     });
+
+    playSignalPub.publish({data: type})
 }
 
 //what to do if the button is single clicked
