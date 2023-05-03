@@ -108,8 +108,10 @@ class Seq2Seq(nn.Module):
         return output_seq
     
     def embed_single(self,x):
+        x = x.unsqueeze(0)
         # x has shape (batch_size, seq_len, input_size)
         batch_size = x.size(0)
+        # print(x.shape)
         
         #encoding phase
         self.encoder.init_hidden(batch_size)
@@ -172,12 +174,12 @@ def visualize_samples(model, dataloader, device):
 
 if __name__ == '__main__':
     INPUT_SIZE = 3
-    NZ = 16
+    NZ = 32
     LR = .008
-    N_LAYERS = 2
+    N_LAYERS = 6
     EPOCHS = 150
     DROPOUT = .2
-    BATCH_SIZE = 80
+    BATCH_SIZE = 84
 
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')   # use GPU if available
 
@@ -190,15 +192,16 @@ if __name__ == '__main__':
     opt = torch.optim.Adam(model.parameters(), LR) 
 
     # train_model(model, data_loader, nn.MSELoss(), opt, EPOCHS, device)
-    # torch.save(model.state_dict(), 'seq2seq_ae_model.pth')
+    # torch.save(model.state_dict(), 'large_seq2seq_ae_model.pth')
     # visualize_samples(model, data_loader, device)
 
-    model.load_state_dict(torch.load('biseq2seq_ae_model.pth'))
+    model.load_state_dict(torch.load('large_seq2seq_ae_model.pth'))
     data = np.load('../data/behaviors.npy')
     outs = []
     for entry in tqdm(data):
         input = torch.tensor(entry*25).to(torch.float32).to(device)
         outs.append(model.embed_single(input).cpu().detach().numpy())
 
-    np.save('../data/embedded_behaviors.npy', np.array(outs))
+    print(np.array(outs).shape)
+    np.save('../data/large_embeddings.npy', np.array(outs))
     

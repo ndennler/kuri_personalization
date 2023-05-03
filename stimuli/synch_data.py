@@ -16,7 +16,7 @@ data = []
 #
 #     VISUAL
 #
-df = pd.read_csv('visual/mp4_autoencoder/icons.csv')
+df = pd.read_csv('visual/data/icons.csv')
 
 for i, row in df.iterrows():
     data.append({
