@@ -27,11 +27,14 @@ for i, row in df.iterrows():
     })
 
 
+# make sure that all of the videos are stored in the vis folder
+# make sure that all of the videos have a thumbnail too
+
 #
 #     AUDITORY
 #
 
-df = pd.read_csv('auditory/sound-effect-library/files.csv')
+df = pd.read_csv('auditory/sound-effect-library/data/files.csv')
 
 
 for i, row in df.iterrows():

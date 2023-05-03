@@ -78,8 +78,10 @@ var visualQueryReceiver = new ROSLIB.Topic({
     document.querySelectorAll(`[id*="Video"]`).forEach(element => {
         
         if(parseInt(element.id.slice(-1))){
-            let new_element = query[parseInt(element.id.slice(-1)) -1]
-            element.innerHTML = "Video " + new_element
+            let new_stimulus_index = query[parseInt(element.id.slice(-1)) -1]
+            element.innerHTML = ""
+            element.style.backgroundImage = `url("${video_ims[new_stimulus_index]}")`;
+            element.dataset.index = new_stimulus_index
         }
     });
   });
@@ -96,8 +98,10 @@ var auditoryQueryReceiver = new ROSLIB.Topic({
     document.querySelectorAll(`[id*="Audio"]`).forEach(element => {
         
         if(parseInt(element.id.slice(-1))){
-            let new_element = query[parseInt(element.id.slice(-1)) -1]
-            element.innerHTML = "Audio " + new_element
+            let new_stimulus_index = query[parseInt(element.id.slice(-1)) -1]
+            element.style.backgroundImage = `url("${audio_ims[new_stimulus_index].file}")`;
+            element.innerHTML = audio_ims[new_stimulus_index].name.replace(/_/g, ' ')
+            element.dataset.index = new_stimulus_index
         }
     });
   });
@@ -115,8 +119,10 @@ var kinestheticQueryReceiver = new ROSLIB.Topic({
     document.querySelectorAll(`[id*="Movement"]`).forEach(element => {
         
         if(parseInt(element.id.slice(-1))){
-            let new_element = query[parseInt(element.id.slice(-1)) -1]
-            element.innerHTML = "Movement " + new_element
+            let new_stimulus_index = query[parseInt(element.id.slice(-1)) -1]
+            element.style.backgroundImage = `url("${movement_ims[new_stimulus_index]}")`;
+            element.innerHTML = ''
+            element.dataset.index = new_stimulus_index
         }
     });
   });

@@ -15,7 +15,10 @@
     border-radius: 20px;
     border-color: #ddd;
     box-shadow: none;
-  }
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
   button:hover {
     background-color: #dee;
     transition:0.5s;

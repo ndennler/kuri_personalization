@@ -26,7 +26,7 @@ var visualSetterReceiver = new ROSLIB.Topic({
   });
 
   visualSetterReceiver.subscribe(function(message) {
-    console.log(message)
+    switch_video_from_index(message.data)
   });
 
 var auditorySetterReceiver = new ROSLIB.Topic({
@@ -36,7 +36,7 @@ var auditorySetterReceiver = new ROSLIB.Topic({
   });
 
   auditorySetterReceiver.subscribe(function(message) {
-    console.log(message)
+    switch_audio_from_index(message.data)
   });
 
 var signalPlayReceiver = new ROSLIB.Topic({
