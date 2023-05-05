@@ -1,6 +1,6 @@
 var stimulus_types = ['Video', 'Audio', 'Movement']
-var video_ims = []; var audio_ims = []; var movement_ims = []
-var selectedTopSignalsPane;
+var video_ims = {}; var audio_ims = {}; var movement_ims = {}
+var selectedTopSignalsPane = 'Video';
 var vis_id, aud_id, kin_id;
 var clickCount = 0;
 var clickTimeout;
@@ -15,15 +15,19 @@ function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+        tabcontent[i].style.display = "none";
     }
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
+
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
+
+    requestStimuliPub.publish({data: selectedTopSignalsPane + ': '})
 }
+
 document.getElementsByClassName("tablinks")[0].click();
 
 // function to create the button grid dynamically
@@ -131,15 +135,16 @@ function selectButton(event){
             type = stimulus_type
         }
     })
-
+    console.log(type)
     if (type == 'Video'){
-        vis_id = event.target.dataset.index
+        vis_id = +event.target.dataset.index
+        console.log(vis_id)
         visualStimPub.publish({data: vis_id})
     } else if (type == 'Audio') {
-        aud_id = event.target.dataset.index
+        aud_id = +event.target.dataset.index
         auditoryStimPub.publish({data: aud_id})
     } else if (type == 'Movement'){
-        kin_id = event.target.dataset.index
+        kin_id = +event.target.dataset.index
         kinestheticStimPub.publish({data: kin_id})
     }
     const buttonGroup = document.querySelectorAll(`[id*="${type}"]`);
@@ -154,7 +159,7 @@ function selectButton(event){
         } 
     });
 
-    playSignalPub.publish({data: type})
+    // playSignalPub.publish({data: type})
 }
 
 //what to do if the button is single clicked
@@ -188,29 +193,31 @@ function showOptions(group) {
     // Add the new options based on the selected group
     if (group === 'visual') {
         document.getElementById('visualbtn').className += " active"
-        selectedTopSignalsPane = 'visual'
+        selectedTopSignalsPane = 'Video'
     } else if (group === 'sound') {
         document.getElementById('audiobtn').className += ' active'
-        selectedTopSignalsPane = 'sound'
+        selectedTopSignalsPane = 'Audio'
     } else if (group === 'movement') {
         document.getElementById('movementbtn').className += ' active'
-        selectedTopSignalsPane = 'movement'
+        selectedTopSignalsPane = 'Movement'
     }
+    requestStimuliPub.publish({data: selectedTopSignalsPane + ': '})
 }
 
 //function to fill in the top however many best buttons
 function populate_options(group, indices){
     var optionsList = document.getElementById('options');
+    optionsList.innerHTML = '';
     // Add the new options based on the selected group
-    if (group === 'visual') {
+    if (group === 'Video') {
         for (let i = 0; i < indices.length; i++) {
             optionsList.appendChild(createOption(`${video_ims[indices[i]]}`, "", indices[i], 'Video'));
         }
-    } else if (group === 'sound') {
+    } else if (group === 'Audio') {
         for (let i = 0; i < indices.length; i++) {
             optionsList.appendChild(createOption(`${audio_ims[indices[i]].file}`, audio_ims[indices[i]].name, indices[i], 'Audio'));
         }
-    } else if (group === 'movement') {
+    } else if (group === 'Movement') {
         for (let i = 0; i < indices.length; i++) {
             optionsList.appendChild(createOption(`${movement_ims[indices[i]]}`, "", indices[i], 'Movement'));
         }
@@ -228,6 +235,14 @@ function createOption(image_path, text, index, type) {
     return li;
     }
 
+//attach keyup response to text box
+document.getElementById("search-bar")
+    .addEventListener("keyup", function(event) {
+    if (event.key === 'Enter') {
+        console.log(event.target.value)
+        requestStimuliPub.publish({data: selectedTopSignalsPane + ':' + event.target.value})
+    }
+});
 
 /*
 
@@ -282,13 +297,13 @@ xhr.onload = function() {
     type = row[2]
 
     if(type == 'Video'){
-        video_ims.push('../data/vis/'+row[3].replace('.mp4', '.jpg'))
+        video_ims[row[1]] = '../data/vis/'+row[3].replace('.mp4', '.jpg')
     }
     if(type == 'Audio'){
-        audio_ims.push({file: '../data/aud/'+row[3].replace('.wav', '.jpg'), name: row[4]})
+        audio_ims[row[1]] = {file: '../data/aud/'+row[3].replace('.wav', '.jpg'), name: row[4]}
     }
     if(type == 'Movement'){
-        movement_ims.push('../data/kin/'+row[1]+'.png')
+        movement_ims[row[1]] = '../data/kin/'+row[1]+'.png'
     }
   }
 };

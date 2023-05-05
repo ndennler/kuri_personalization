@@ -1,5 +1,5 @@
-var video_files = []
-var audio_files = []
+var video_files = {}
+var audio_files = {}
 
 
 var video = document.getElementById('video-stimulus');
@@ -15,6 +15,7 @@ Code for changing video
 */
 function switch_video_from_index(index){
     switch_video(video_files[index])
+    console.log(video_files[index])
 }
 function switch_video(file){
     source.setAttribute('src', file);
@@ -43,7 +44,12 @@ function switch_audio_from_index(index){
     switch_audio(audio_files[index])
 }
 function switch_audio(file){  
+  if (!audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
     audio = new Audio(file);
+    audio.play()
 }
 function play_audio(){
     if (!audio.paused) {
@@ -83,10 +89,10 @@ xhr.onload = function() {
     type = row[2]
 
     if(type == 'Video'){
-        video_files.push('../data/vis/'+row[3])
+        video_files[row[1]] = '../data/vis/'+row[3]
     }
     if(type == 'Audio'){
-        audio_files.push('../data/aud/'+row[3])
+        audio_files[row[1]] = '../data/aud/'+row[3]
     }
   }
 };

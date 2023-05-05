@@ -22,21 +22,21 @@ var ros = new ROSLIB.Ros({
 var visualSetterReceiver = new ROSLIB.Topic({
     ros : ros,
     name : '/set_visual_stimulus',
-    messageType : 'std_msgs/Int8'
+    messageType : 'std_msgs/Int32'
   });
 
   visualSetterReceiver.subscribe(function(message) {
-    switch_video_from_index(message.data)
+    switch_video_from_index(parseInt(message.data))
   });
 
 var auditorySetterReceiver = new ROSLIB.Topic({
     ros : ros,
     name : '/set_auditory_stimulus',
-    messageType : 'std_msgs/Int8'
+    messageType : 'std_msgs/Int32'
   });
 
   auditorySetterReceiver.subscribe(function(message) {
-    switch_audio_from_index(message.data)
+    switch_audio_from_index(parseInt(message.data))
   });
 
 var signalPlayReceiver = new ROSLIB.Topic({
