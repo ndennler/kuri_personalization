@@ -4,8 +4,10 @@ import matplotlib.pyplot as plt
 
 
 # vectors = np.load('./visual/data/32_embeddings.npy')
-vectors = np.load('./auditory/sound-effect-library/data/32_embeddings.npy')
+# vectors = np.load('./auditory/sound-effect-library/data/32_embeddings.npy')
 # vectors = np.load('./kinesthetic/data/32_embeddings.npy')
+vectors = np.load('/Users/daniel/Desktop/kuri_personalization/stimuli/kinesthetic/features.npy')
+print(vectors)
 
 # Compute cosine similarity matrix
 cos_sim_matrix = np.dot(vectors, vectors.T)
